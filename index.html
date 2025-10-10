@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>2023年 第3回診療情報管理士模擬試験 専門分野</title>
+<title>11章 国際統計分類Ⅰ</title>
 <style>
   body {
     background-color: #fdfdfd;
@@ -79,7 +79,7 @@
 </style>
 </head>
 <body>
-<h1>2023年 第3回診療情報管理士模擬試験 専門分野</h1>
+<h1>11章 国際統計分類Ⅰ</h1>
 <div>
   <p>※回答解説中のⅠ,Ⅱ,ⅢはそれぞれテキストⅠ,Ⅱ,Ⅲを表す</p>
 </div>
@@ -91,694 +91,851 @@
 <script>
 // ======= 問題データ =======
 const DATA = [
-  {
+ {
   "id": 1,
-  "title": "問1. 医療資源（物的資源）について、正しいものを1つ選びなさい。",
+  "title": "【2020年 第1回模擬試験】<br>問1. 人口統計について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "保健所は、医療施設である", "correct": false },
-    { "label": "b", "text": "健康増進施設は、医療施設である", "correct": true },
-    { "label": "c", "text": "介護老人保健施設は、保健施設である", "correct": false },
-    { "label": "d", "text": "介護老人福祉施設は、保健施設である", "correct": false },
-    { "label": "e", "text": "訪問看護ステーションは、保健施設である", "correct": false }
+    { "label": "a", "text": "国勢調査、人口動態調査は、いずれも国の主要統計である", "correct": true },
+    { "label": "b", "text": "離婚、妊娠、転居は、いずれも人口動態事象に含まれる", "correct": false },
+    { "label": "c", "text": "原死因の決定は、都道府県が行う", "correct": false },
+    { "label": "d", "text": "保健所および都道府県では、専らファックスにより調査票を送信する", "correct": false },
+    { "label": "e", "text": "国勢調査は、3年に1度行われる人口静態統計である", "correct": false }
   ],
   "explanation_html": `
-✅ 正解：b「健康増進施設は、医療施設である」<br>
-・a：× 医療施設 → 保健施設<br>
-・b：〇（Ⅲ6）<br>
-・c：× 保健施設 → 医療施設、介護福祉施設<br>
-・d：× 保健施設 → 介護福祉施設<br>
-・e：× 保健施設 → 医療施設`
+✅ 正解：a「国勢調査、人口動態調査は、いずれも国の主要統計である」<br>
+(11-1-1)<br>
+(a) ○ IV207<br>
+(b) × IV206 妊娠、転居は含まれない<br>
+(c) × IV209 都道府県 → 厚生労働省<br>
+(d) × IV207 ファックス → 人口動態調査オンライン報告システム<br>
+(e) × IV206 3年 → 5年`
 },
  {
   "id": 2,
-  "title": "問2. 医療レベルについて、正しいものを1つ選びなさい。",
+  "title": "【2020年 第1回模擬試験】<br>問2. 小改正であるものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "一次医療 ― 大学病院、特定機能病院", "correct": false },
-    { "label": "b", "text": "二次医療 ― 外来医療（通院）", "correct": false },
-    { "label": "c", "text": "一次医療 ― 無床診療所", "correct": false },
-    { "label": "d", "text": "二次医療 ― プライマリ・ケア", "correct": false },
-    { "label": "e", "text": "三次医療 ― 救急救命センター", "correct": true }
+    { "label": "a", "text": "コードの移動", "correct": false },
+    { "label": "b", "text": "あるカテゴリーについて、3桁分類項目のカテゴリーの変化を伴う索引の改正", "correct": false },
+    { "label": "c", "text": "新たな用語の索引への導入", "correct": false },
+    { "label": "d", "text": "新たなコードの追加", "correct": false },
+    { "label": "e", "text": "コードの表現の強化", "correct": true }
   ],
   "explanation_html": `
-✅ 正解：e「三次医療 ― 救急救命センター」<br>
-・a：× 一次医療 → 三次医療<br>
-・b：× 二次医療 → 一次医療<br>
-・c：× 三次医療 → 一次医療<br>
-・d：× 二次医療 → 一次医療<br>
-・e：〇（Ⅲ43）`
+✅ 正解：e「コードの表現の強化」<br>
+(11-1-3 Ⅳ222)<br>
+(e) ○ 他は全て大改正`
 },
  {
   "id": 3,
-  "title": "問3. 健康増進法と特定健康診査について、正しいものを1つ選びなさい。",
+  "title": "【2020年 第1回模擬試験】<br>問3. ICDの基本体系について、まちがっている組み合わせを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "健康増進法は、特定健康診査を推進するための法律である", "correct": false },
-    { "label": "b", "text": "健康増進法は、学校・官公庁等における受動喫煙の防止を義務付けている", "correct": true },
-    { "label": "c", "text": "特定健康診査は、40歳以上の全ての医療保険加入者が対象である", "correct": false },
-    { "label": "d", "text": "特定健康診査は、皮下脂肪型肥満に着目した生活習慣病予防を行うことが目的である", "correct": false },
-    { "label": "e", "text": "特定保健指導を実施するのは、医師、看護師である", "correct": false }
+    { "label": "a", "text": "新生物 - C00-D48", "correct": false },
+    { "label": "b", "text": "精神及び行動 - F00-F99", "correct": false },
+    { "label": "c", "text": "眼及び付属器 - H00-H99", "correct": true },
+    { "label": "d", "text": "消化器 - K00-K93", "correct": false },
+    { "label": "e", "text": "周産期 - P00-P96", "correct": false }
   ],
   "explanation_html": `
-✅ 正解：b「健康増進法は、学校・官公庁等における受動喫煙の防止を義務付けている」<br>
-・a：× 特定健康診査 → 健康日本21（Ⅲ56）<br>
-・b：〇（Ⅲ57）<br>
-・c：× 40歳以上の全て → 40〜74歳（Ⅲ58）<br>
-・d：× 皮下脂肪型 → 内臓脂肪型（Ⅲ58）<br>
-・e：× 医師、看護師 → 医師、保健師、管理栄養士など（Ⅲ59）`
+✅ 正解：c「眼及び付属器 - H00-H99」<br>
+(11-1-4 IV227)<br>
+(c) × H00-H99 → H00-H59`
 },
  {
   "id": 4,
-  "title": "問4. 医療従事者の職種と業務について、正しいものを1つ選びなさい。",
+  "title": "【2020年 第1回模擬試験】<br>問4. ファミリーについて、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "救急救命士は、自らの判断で救急救命処置を行う", "correct": false },
-    { "label": "b", "text": "保健師は、生命維持管理装置を用いた保健指導および保健の検査を行う", "correct": false },
-    { "label": "c", "text": "理学療法士は、応用的動作能力や社会的適応能力の回復のための作業を行わせる", "correct": false },
-    { "label": "d", "text": "管理栄養士は、国家資格である", "correct": true },
-    { "label": "e", "text": "医療ソーシャルワーカーは、要介護者の状況に応じてケアプランを作成する", "correct": false }
+    { "label": "a", "text": "ICD-O-3は、関連分類である", "correct": false },
+    { "label": "b", "text": "ICDは、派生分類である", "correct": false },
+    { "label": "c", "text": "ICHIは、中心分類である", "correct": true },
+    { "label": "d", "text": "ICNPは、派生分類である", "correct": false },
+    { "label": "e", "text": "ICF-CYは、関連分類である", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「管理栄養士は、国家資格である」<br>
-・a：× 自らの判断で → 医師の指示の下（Ⅲ62）<br>
-・b：× 臨床検査技師 → 臨床工学技士（Ⅲ63）<br>
-・c：× 理学療法士 → 作業療法士（Ⅲ63）<br>
-・d：〇<br>
-・e：× 医療ソーシャルワーカー → 介護支援専門員（ケアマネージャー）（Ⅲ63）`
+  "explanation_html": `
+✅ 正解：c「ICHIは、中心分類である」<br>
+(11-2-1 IV229)<br>
+(a) × 関連分類 → 派生分類<br>
+(b) × 派生分類 → 中心分類<br>
+(c) ○<br>
+(d) × 派生分類 → 関連分類<br>
+(e) × 関連分類 → 派生分類`
 },
  {
   "id": 5,
-  "title": "問5. 病院の会計基準について、正しい組み合わせを1つ選びなさい。",
+  "title": "【2020年 第1回模擬試験】<br>問5. ICD-Oについて、まちがっているものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "医療法人病院 ― 病院会計準則（医療法人会計基準）", "correct": true },
-    { "label": "b", "text": "国立大学病院 ― 独立行政法人会計基準", "correct": false },
-    { "label": "c", "text": "学校法人病院 ― 公益法人会計基準", "correct": false },
-    { "label": "d", "text": "公立病院 ― 独立行政法人会計基準", "correct": false },
-    { "label": "e", "text": "企業経営病院 ― 病院会計準則（医療法人会計基準）", "correct": false }
+    { "label": "a", "text": "悪性、良性、性状不詳の別が表記できる", "correct": false },
+    { "label": "b", "text": "原発性・続発性の別が表記できる", "correct": false },
+    { "label": "c", "text": "局在コードは、ICD-10コードと全て一致する", "correct": true },
+    { "label": "d", "text": "/0は、良性である", "correct": false },
+    { "label": "e", "text": "/3は、原発性である", "correct": false }
   ],
-  "explanation_html": `✅ 正解：a「医療法人病院 ― 病院会計準則（医療法人会計基準）」<br>
-・a：〇（Ⅲ81）<br>
-・b：× 独立行政法人会計基準 → 国立大学法人会計基準<br>
-・c：× 公益法人会計基準 → 学校法人会計基準<br>
-・d：× 独立行政法人会計基準 → 公益法人会計基準<br>
-・e：× 病院会計準則（医療法人会計基準） → 企業会計の基準`
+  "explanation_html": `
+✅ 正解：c「局在コードは、ICD-10コードと全て一致する」<br>
+(11-2-2)<br>
+(a) ○ IV239<br>
+(b) ○ IV239<br>
+(c) × IV240 局在コードはICDコードと同様の表記となる場合が多いが、同じことを表しているわけではない。また、血液系や皮膚の腫瘍などコードが異なるものもある<br>
+(d) ○ IV241<br>
+(e) ○ IV241`
 },
  {
   "id": 6,
-  "title": "問6. 経営計画について、まちがっている組み合わせを1つ選びなさい。",
+  "title": "【2020年 第1回模擬試験】<br>問6. 原死因・主要病態の選択について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "利益計画 ― 収入計画", "correct": false },
-    { "label": "b", "text": "費用計画 ― 収入計画", "correct": false },
-    { "label": "c", "text": "設備投資 ― 資金計画", "correct": false },
-    { "label": "d", "text": "目標利益額 ― 資金計画", "correct": true },
-    { "label": "e", "text": "固定資産取得 ― 資金計画", "correct": false }
+    { "label": "a", "text": "ルールA~ルールDは、原死因の選択ルールである", "correct": false },
+    { "label": "b", "text": "MBルールは、原死因の再選択ルールである", "correct": false },
+    { "label": "c", "text": "MBルールは、全部で7つである", "correct": false },
+    { "label": "d", "text": "原死因の選択は、一般原則、選択ルール、修正ルールの順に使用する", "correct": true },
+    { "label": "e", "text": "主要病態の選択は、最も医療資源の使われた病態を優先する", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「目標利益額 ― 資金計画」<br>
-・a：〇<br>
-・b：〇<br>
-・c：〇<br>
-・d：× 資金計画 → 収入計画（Ⅲ82）<br>
-・e：〇`
+  "explanation_html": `
+✅ 正解：d「原死因の選択は、一般原則、選択ルール、修正ルールの順に使用する」<br>
+(11-3-1〜11-3-2)<br>
+(a) × 11-3-1 IV250 選択ルール → 修正ルール<br>
+(b) × 11-3-2 IV260 原死因 → 主要病態<br>
+(c) × 11-3-2 IV261 7 → 5<br>
+(d) ○ 11-3-1 IV251<br>
+(e) × 11-3-2 IV259 最も医療資源の使われた病態 → 最後に診断された病態`
 },
- {
+  {
   "id": 7,
-  "title": "問7. 医療機関の管理資料について、正しい組み合わせを1つ選びなさい。",
+  "title": "【2020年 第2回模擬試験】<br>問7. ICD-10の修正について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "職員統計 ― 病床利用率", "correct": false },
-    { "label": "b", "text": "医療統計 ― 手術件数", "correct": true },
-    { "label": "c", "text": "市場調査 ― 診療報酬額", "correct": false },
-    { "label": "d", "text": "業務統計 ― 出勤率", "correct": false },
-    { "label": "e", "text": "医事データ ― 収益費用効率", "correct": false }
+    { "label": "a", "text": "改正は毎年、改訂は3年ごとに行われる", "correct": false },
+    { "label": "b", "text": "ICD-10からICD-11への修正は、改正である", "correct": false },
+    { "label": "c", "text": "WHO-FICネットワーク会議において、3年周期で実施されている", "correct": false },
+    { "label": "d", "text": "WHOにおいては、小改正（Minor change）は、翌年の1月から施行される", "correct": true },
+    { "label": "e", "text": "わが国の公的な統計には、2003年版が用いられている", "correct": false }
   ],
-  "explanation_html": `✅ 正解：b「医療統計 ― 手術件数」<br>
-・a：× 職員統計 → 医事データに基づく統計（Ⅲ84）<br>
-・b：〇<br>
-・c：× 市場調査 → 医事データに基づく統計（Ⅲ84）<br>
-・d：× 業務統計 → 職員統計（Ⅲ84）<br>
-・e：× 医事データ → 財務統計（Ⅲ84）`
+  "explanation_html": `
+✅ 正解：d「WHOにおいては、小改正（Minor change）は、翌年の1月から施行される」<br>
+(a) ×　11-1-3　IV220  小改正は毎年、大改正は3年ごと。<br>
+(b) ×　11-1-3　IV220  改正 → 改訂<br>
+(c) ×　11-1-3　IV220  3年間期 → 毎年<br>
+(d) ○　11-1-3　IV222<br>
+(e) ×　11-1-3　IV222  2003年版 → 2013年版`
 },
  {
   "id": 8,
-  "title": "問8. 次のうち、保険適用外診療ではないものを1つ選びなさい。",
+  "title": "【2020年 第2回模擬試験】<br>問8. ICD-10について、まちがっているものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "通常のあざ・にきび", "correct": false },
-    { "label": "b", "text": "健康診断", "correct": false },
-    { "label": "c", "text": "予防接種", "correct": false },
-    { "label": "d", "text": "冷暖房費", "correct": true },
-    { "label": "e", "text": "正常妊娠・正常分娩", "correct": false }
+    { "label": "a", "text": "コードによっては、6桁目まで付番されている", "correct": false },
+    { "label": "b", "text": "4桁分類は、細分類項目である", "correct": false },
+    { "label": "c", "text": "分類軸は、全体を一貫していない", "correct": false },
+    { "label": "d", "text": "1巻は総論、2巻は索引表、3巻は内容例示表である", "correct": true },
+    { "label": "e", "text": "わが国の医療事情には、必ずしも適合していない", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「冷暖房費」<br>
-・a：× 保険適用外診療<br>
-・b：× 保険適用外診療<br>
-・c：× 保険適用外診療<br>
-・d：〇 保険適用外診療ではない（Ⅲ130）<br>
-・e：× 保険適用外診療`
+  "explanation_html": `
+✅ 正解：d「1巻は総論、2巻は索引表、3巻は内容例示表である」<br>
+(11-1-4)<br>
+(a) ○　IV223<br>
+(b) ○　IV223<br>
+(c) ○　IV224<br>
+(d) ×　IV225　1巻は内容例示表、2巻は総論、3巻は索引表。<br>
+(e) ○　IV225`
 },
  {
   "id": 9,
-  "title": "問9. 保険診療について、まちがっているものを1つ選びなさい。",
+  "title": "【2020年 第2回模擬試験】<br>問9. ファミリーについて、まちがっているものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "医師国家試験に合格すると、厚生労働大臣名で医師免許証が交付される", "correct": false },
-    { "label": "b", "text": "医療機関は、地方厚生局に保険医療機関の申請を行う", "correct": false },
-    { "label": "c", "text": "保険医登録されなければ、医療行為を行うことができない", "correct": true },
-    { "label": "d", "text": "保険医は規則を守ることで、診療報酬を請求する権利が生じる", "correct": false },
-    { "label": "e", "text": "療養担当規則には、療養の給付の担当に関する帳簿等を完結の日から3年間保存することと定められている", "correct": false }
+    { "label": "a", "text": "国際生活機能分類 - 児童版（ICF-CY）は、中心分類である", "correct": true },
+    { "label": "b", "text": "派生分類は、中心分類の構成や項目を細かく分類、追加し、並べ直したものである", "correct": false },
+    { "label": "c", "text": "国際疾病分類 - 腫瘍学第3版（ICD-O-3）は、派生分類である", "correct": false },
+    { "label": "d", "text": "関連分類は、中心分類を一部参照したり、構成の一部が中心分類と関連している分類である", "correct": false },
+    { "label": "e", "text": "プライマリケアに対する国際分類（ICPC-2）は、関連分類である", "correct": false }
   ],
-  "explanation_html": `✅ 正解：c「保険医登録されなければ、医療行為を行うことができない」<br>
-・a：〇（Ⅲ133）<br>
-・b：〇（Ⅲ133）<br>
-・c：× 保険医登録→医師免許の取得（Ⅲ133）<br>
-・d：〇（Ⅲ134）<br>
-・e：〇（Ⅲ137）`
+  "explanation_html": `
+✅ 正解：a「国際生活機能分類一児童版（ICF-CY）は、中心分類である」<br>
+(11-2-1　IV228)<br>
+(a) ×　中心分類 → 派生分類<br>
+(b) ○<br>
+(c) ○<br>
+(d) ○<br>
+(e) ○`
 },
  {
   "id": 10,
-  "title": "問10. 診療報酬の改定について、正しいものを1つ選びなさい。",
+  "title": "【2020年 第2回模擬試験】<br>問10. 原死因の選択ルールについて、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "5年に1度、大幅に改訂される", "correct": false },
-    { "label": "b", "text": "診療報酬点数の改定率は、厚生労働大臣が決定する", "correct": false },
-    { "label": "c", "text": "診療報酬改定については、厚生労働大臣が社会保障審議会に諮問する", "correct": false },
-    { "label": "d", "text": "使用薬剤の薬価は、診療報酬点数表に示されている", "correct": false },
-    { "label": "e", "text": "改訂内容が示された後、疑義解釈が追加通知される", "correct": true }
+    { "label": "a", "text": "ルール1~ルール3は、修正ルールである", "correct": false },
+    { "label": "b", "text": "ルールA~ルールDは、選択ルールである", "correct": false },
+    { "label": "c", "text": "最初に一般原則、続いて修正ルール、選択ルールの順に適用する", "correct": false },
+    { "label": "d", "text": "ルール3は、連鎖についてのルールである", "correct": false },
+    { "label": "e", "text": "ルールBは、軽微な病態についてのルールである", "correct": true }
   ],
-  "explanation_html": `✅ 正解：e「改訂内容が示された後、疑義解釈が追加通知される」<br>
-・a：× 5年 → 2年（Ⅲ138）<br>
-・b：× 厚労大臣 → 内閣（Ⅲ138）<br>
-・c：× 社会保障審議会 → 中医協（Ⅲ138）<br>
-・d：× 薬剤は薬価基準、材料は材料価格基準に示される（Ⅲ138）<br>
-・e：〇（Ⅲ138）`
+  "explanation_html": `
+✅ 正解：e「ルールBは、軽微な病態についてのルールである」<br>
+(11-3-1)<br>
+(a) ×　IV250　修正ルール → 選択ルール<br>
+(b) ×　IV250　選択ルール → 修正ルール<br>
+(c) ×　IV251　一般原則 → 選択ルール → 修正ルールの順に適用する。<br>
+(d) ×　IV252　ルール3 → ルールC<br>
+(e) ○　IV252`
 },
  {
   "id": 11,
-  "title": "問11. 医療費の支払いについて、正しいものを1つ選びなさい。",
+  "title": "【2020年 第2回模擬試験】<br>問11. 主要病態と再選択ルール（MBルール）について、まちがっているものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "審査支払機関は、被保険者に対する現金給付と保険料の徴収を行う", "correct": false },
-    { "label": "b", "text": "医療保険制度における診療報酬は、支払基金に対して請求する", "correct": false },
-    { "label": "c", "text": "レセプトの作成は、入院と外来に分け、入院は1入院ごと、外来は1診療ごとに行う", "correct": false },
-    { "label": "d", "text": "保険者番号は、社会保険8桁、国民健康保険6桁である", "correct": true },
-    { "label": "e", "text": "診療報酬制度は、原則的に定額払い方式である", "correct": false }
+    { "label": "a", "text": "主要病態とは、WHOで用いる「main condition」の訳である", "correct": false },
+    { "label": "b", "text": "原因である病態のうち、最後に診断されたものを選択する", "correct": false },
+    { "label": "c", "text": "主要病態の選択にあたっては、まずはルールMB１を適用する", "correct": true },
+    { "label": "d", "text": "MBとは、罹病（Morbidity）の意味である", "correct": false },
+    { "label": "e", "text": "MBルールは、MB1からMB5までのルールがある", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「保険者番号は、社会保険8桁、国民健康保険6桁である」<br>
-・a：×（Ⅲ144）審査支払機関 → 保険者。審査支払機関は、保険者の委託を受けて請求内容の審査や支払いを行う。<br>
-・b：×（Ⅲ144）支払基金→国保連合会<br>
-・c：×（Ⅲ145）入院は1入院ごと、外来は1診療ごと → 実際には1か月分ごとにまとめて作成する。<br>
-・d：〇（Ⅲ147）<br>
-・e：×（Ⅲ153）定額払い→個別出来高払い。`
-}
-,
- {
+  "explanation_html": `
+✅ 正解：c「主要病態の選択にあたっては、まずはルールMB１を適用する」<br>
+(11-3-2)<br>
+(a) ○　IV258<br>
+(b) ○　IV259<br>
+(c) ×　IV259　最初に基本原則を適用し、その後MBルールを用いる。また、実務上は、まずは記載者の医師などに照会する。<br>
+(d) ○　IV260<br>
+(e) ○　IV260-261`
+},
+  {
   "id": 12,
-  "title": "問12. 医療機関で把握すべきリスクについて、まちがっている組み合わせを1つ選びなさい。",
+  "title": "【2020年 第3回模擬試験】<br>問12. ICD-10について、まちがっているものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "人的要因（外部） ― 職員の誘拐", "correct": false },
-    { "label": "b", "text": "人的要因（内部） ― 機密漏洩", "correct": false },
-    { "label": "c", "text": "社会的要因 ― 環境問題", "correct": false },
-    { "label": "d", "text": "自然災害 ― 火災", "correct": true },
-    { "label": "e", "text": "事故 ― 環境汚染", "correct": false }
+    { "label": "a", "text": "第9回改訂会議において、剣印(†)星印(*)システムが承認された", "correct": false },
+    { "label": "b", "text": "第10回改訂会議において、ファミリーの概念が採用された", "correct": false },
+    { "label": "c", "text": "第3巻の索引表は、全3編から構成されている", "correct": false },
+    { "label": "d", "text": "Marc d'Espineの分類が、構成の基本である", "correct": true },
+    { "label": "e", "text": "コードによっては、日本で独自に追加した細分類項目を付記する", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「自然災害 ― 火災」<br>
-・a：〇（Ⅲ189）<br>
-・b：〇（Ⅲ189）<br>
-・c：〇（Ⅲ189）<br>
-・d：× 自然災害 → 事故（Ⅲ189）<br>
-・e：〇（Ⅲ189）`
+  "explanation_html": `
+✅ 正解：d「Marc d'Espineの分類が、構成の基本である」<br>
+(a) ○ IV219<br>
+(b) ○ IV220<br>
+(c) ○ IV225<br>
+(d) × IV226 Marc d'Espine → William Farr<br>
+(e) ○ IV226 日本では独自の細分類項目 (a、b、c、d) が追加されている。`
 },
  {
   "id": 13,
-  "title": "問13. 医療従事者の義務として、正しいものを1つ選びなさい。",
+  "title": "【2020年 第3回模擬試験】<br>問13. ICD-10の基本体系について、正しい組み合わせを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "医療行為の結果をあらかじめ見通す義務は、回避義務である", "correct": false },
-    { "label": "b", "text": "守秘義務がかれられているのは、医師のみである", "correct": false },
-    { "label": "c", "text": "正当な理由のない限り診療を拒否できないのは、応召義務である", "correct": true },
-    { "label": "d", "text": "説明義務違反で訴訟される事例は、近年少なくなってきている", "correct": false },
-    { "label": "e", "text": "緊急事態においては、重大な過失があっても免責となる", "correct": false }
+    { "label": "a", "text": "C－内分泌", "correct": false },
+    { "label": "b", "text": "F－周産期", "correct": false },
+    { "label": "c", "text": "H－眼,耳", "correct": true },
+    { "label": "d", "text": "P－妊娠、分娩、産じょく", "correct": false },
+    { "label": "e", "text": "Z－特殊目的コード", "correct": false }
   ],
-  "explanation_html": `✅ 正解：c「正当な理由のない限り診療を拒否できないのは、応召義務である」<br>
-・a：× 回避義務 → 予見義務（Ⅲ203）<br>
-・b：× 医師のみ → その他の病院関係者も含む（Ⅲ203）<br>
-・c：〇（Ⅲ203）<br>
-・d：× 少なく → 多く（Ⅲ203）<br>
-・e：× 重大な過失があっても → 最善を尽くし、重大な過失が無ければ（Ⅲ203）`
+  "explanation_html": `
+✅ 正解：c「H－眼,耳」<br>
+Ⅳ227<br>
+(a) × C → E<br>
+(b) × F → P<br>
+(c) ○<br>
+(d) × P → O<br>
+(e) × Z → U`
 },
  {
   "id": 14,
-  "title": "問14. 責任の形態について、正しいものを1つ選びなさい。",
+  "title": "【2020年 第3回模擬試験】<br>問14. ICFについて、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "過失はすべて、刑事責任を問われる", "correct": false },
-    { "label": "b", "text": "債務不履行責任、不法行為責任は、刑事責任である", "correct": false },
-    { "label": "c", "text": "医療従事者による医療事故において、雇用者は責任を負わない", "correct": false },
-    { "label": "d", "text": "業務上過失致死傷は、刑事責任を問われる", "correct": true },
-    { "label": "e", "text": "免許取り消しや損害賠償は、行政責任である", "correct": false }
+    { "label": "a", "text": "プライマリケアに対する国際分類であり、中心分類の1つである", "correct": false },
+    { "label": "b", "text": "頭文字のアルファベットは、それぞれ心身機能、精神構造、活動と参加、環境因子を表す", "correct": false },
+    { "label": "c", "text": "心身機能とは、身体系の生理的機能のことである", "correct": true },
+    { "label": "d", "text": "活動とは、生活・人生場面への関わりのことである", "correct": false },
+    { "label": "e", "text": "参加とは、課題や行為の個人による遂行のことである", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「業務上過失致死傷は、刑事責任を問われる」<br>
-・a：× 過失に伴う法的責任は、民事、刑事、行政の観点がある（Ⅲ203）<br>
-・b：× 刑事 → 民事（Ⅲ203）<br>
-・c：× 責任を負わない → 使用者責任を負う（Ⅲ204）<br>
-・d：〇（Ⅲ203-204）<br>
-・e：× 損害賠償は民事責任（Ⅲ204）`
+  "explanation_html": `
+✅ 正解：c「心身機能とは、身体系の生理的機能のことである」<br>
+IV232<br>
+(a) × IV228 プライマリケアに対する国際分類 → 国際生活機能分類<br>
+(b) × IV229 精神構造 → 身体構造<br>
+(c) ○ IV232<br>
+(d) × IV232 活動 → 参加<br>
+(e) × IV232 参加 → 活動`
 },
  {
   "id": 15,
-  "title": "問15. 病院情報の公表内容として、まちがっているものを1つ選びなさい。",
+  "title": "【2020年 第3回模擬試験】<br>問15. ICD-Oについて、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "年齢階級別退院患者数", "correct": false },
-    { "label": "b", "text": "診療科別症例の多いものから3つ", "correct": false },
-    { "label": "c", "text": "初発の5大癌のUICC病期分類およびに再発患者数", "correct": false },
-    { "label": "d", "text": "院内肺炎の重症度別患者数等", "correct": true },
-    { "label": "e", "text": "脳梗塞のICD10別患者数", "correct": false }
+    { "label": "a", "text": "現在、第10版が使用されている", "correct": false },
+    { "label": "b", "text": "局在コードは、C00-C80で表現される", "correct": true },
+    { "label": "c", "text": "局在コードは、どのような性質の腫瘍であるかを表す", "correct": false },
+    { "label": "d", "text": "形態コードは、体のどこに腫瘍があるかを表す", "correct": false },
+    { "label": "e", "text": "アルファベットのMを頭にしてハイフンをつけ表示するのは、局在コードである", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「院内肺炎の重症度別患者数等」<br>
-・a：〇（Ⅲ219）<br>
-・b：〇（Ⅲ219）<br>
-・c：〇（Ⅲ219）<br>
-・d：× 院内肺炎 → 成人市中肺炎（Ⅲ219）<br>
-・e：〇（Ⅲ219）`
+  "explanation_html": `
+✅ 正解：b「局在コードは、C00-C80で表現される」<br>
+IV240<br>
+(a) × IV239 10版 → 3版<br>
+(b) ○ IV240<br>
+(c) × IV239 局在コード → 形態コード<br>
+(d) × IV239 形態コード → 局在コード<br>
+(e) × IV241 局在コード → 形態コード`
 },
  {
   "id": 16,
-  "title": "問16. 情報とデータについて、正しいものを1つ選びなさい。",
+  "title": "【2020年 第3回模擬試験】<br>問16. 主要病態の選択について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "英語のinformは、「情報を追求演繹」 の意味である", "correct": false },
-    { "label": "b", "text": "データが解釈されていないものを「情報」といい、「情報」である", "correct": false },
-    { "label": "c", "text": "受け手が意思決定や行動の選択を促すのは、「データ」である", "correct": false },
-    { "label": "d", "text": "主観的な意味があるのは、「情報」である", "correct": true },
-    { "label": "e", "text": "「情報」を加工し、解釈や価値を与えたものが「データ」である", "correct": false }
+    { "label": "a", "text": "原死因と同じルールで選択する", "correct": false },
+    { "label": "b", "text": "最も医療資源が使われた病態を、第一に選択する", "correct": false },
+    { "label": "c", "text": "症状や所見が選択される場合もある", "correct": true },
+    { "label": "d", "text": "MBルールは、全部で6つである", "correct": false },
+    { "label": "e", "text": "MBルールのMは、Mortalityの意味である", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「主観的な意味があるのは、『情報』である」<br>
-・a：× 「情報を運ぶ媒体」 → 「知らせる」（Ⅲ243）<br>
-・b：× 「情報」ではなく「データ」（Ⅲ243）<br>
-・c：× 「データ」→「情報」（Ⅲ244）<br>
-・d：〇（Ⅲ243-244）<br>
-・e：× 「データ」を加工したものが「情報」（Ⅲ244）`
+  "explanation_html": `
+✅ 正解：c「症状や所見が選択される場合もある」<br>
+Ⅳ259-260<br>
+(a) × Ⅳ259 同じ → 異なる<br>
+(b) × Ⅳ259 まずは最後に診断された病態を第一に選択するが、そのような病態が複数ある場合に最も医療資源が使われた病態を選択する。<br>
+(c) ○ Ⅳ259 診断がなされなかった場合に、主要症状、異常な所見、問題を選択する。<br>
+(d) × Ⅳ259 6つ → 5つ<br>
+(e) × Ⅳ260 Mortality（死因） → Morbidity（罹病）`
 },
  {
   "id": 17,
-  "title": "問17. 情報セキュリティについて、正しいものを1つ選びなさい。",
+  "title": "【2020年 第4回模擬試験】<br>問17. 人口動態統計について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "アクセスを認可された者だけが情報にアクセスできることは、真正性である", "correct": false },
-    { "label": "b", "text": "認可された利用者が、必要なときに情報および関連する資産にアクセスできることは、見読性である", "correct": false },
-    { "label": "c", "text": "作成の所在地を明確にすることは、保存性である", "correct": false },
-    { "label": "d", "text": "情報および処理方法が正確であることは、完全性である", "correct": true },
-    { "label": "e", "text": "法令に定める保存期間内、復元可能な状態で保存することは、可用性である", "correct": false }
+    { "label": "a", "text": "代表的な例として、国勢調査がある", "correct": false },
+    { "label": "b", "text": "死産、婚姻、別居は、いずれも人口動態事象ではない", "correct": false },
+    { "label": "c", "text": "戦後は、人口動態調査令により調査が再開された", "correct": true },
+    { "label": "d", "text": "現在は、総理庁統計局が調査主体である", "correct": false },
+    { "label": "e", "text": "戦前は、公衆衛生の発展に大きく貢献した", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「情報および処理方法が正確であることは、完全性である」<br>
-・a：× 真正性 → 機密性（Ⅲ253,299）<br>
-・b：× 見読性 → 可用性（Ⅲ253,299）<br>
-・c：× 保存性 → 真正性（Ⅲ253,299）<br>
-・d：〇（Ⅲ253,299）<br>
-・e：× 可用性 → 保存性（Ⅲ253,299）`
+  "explanation_html": `
+✅ 正解：c「戦後は、人口動態調査令により調査が再開された」<br>
+IV206<br>
+(a) ×   国勢調査は人口静態統計の代表<br>
+(b) ×   ではない → である<br>
+(c) ○<br>
+(d) ×   総理庁統計局 → 厚労省（以前の厚生省）<br>
+(e) ×   戦前 → 戦後。戦後、保健所が調査票の収集、利用機関となり、公衆衛生施策に活用されるようになった`
 },
  {
   "id": 18,
-  "title": "問18. 医療情報分野の略語について、まちがっているものを1つ選びなさい。",
+  "title": "【2020年 第4回模擬試験】<br>問18. 人口統計について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "一般的な電子認証をささえる仕組みは、PKIである", "correct": false },
-    { "label": "b", "text": "複数の医療機関で共有される電子的な保健医療情報は、HPKIである", "correct": true },
-    { "label": "c", "text": "病院情報システムに蓄積される診療情報は、EMRである", "correct": false },
-    { "label": "d", "text": "個人の保健医療福祉に関する情報を統合して蓄積したものは、EHRである", "correct": false },
-    { "label": "e", "text": "個人の健康情報を個人が収集管理するのは、PHRである", "correct": false }
+    { "label": "a", "text": "保健所長が調査票を作成し、都道府県知事を経由して厚生労働省に提出される", "correct": false },
+    { "label": "b", "text": "死亡統計には、オートコーディングシステムが用いられている", "correct": true },
+    { "label": "c", "text": "わが国の公的な分類表は、死因分類表、疾病分類表の2種類である", "correct": false },
+    { "label": "d", "text": "死因分類表には、大、中、小分類の3表がある", "correct": false },
+    { "label": "e", "text": "疾病分類表は、ICD-10第1巻の項目そのものである", "correct": false }
   ],
-  "explanation_html": `✅ 正解：b「複数の医療機関で共有される電子的な保健医療情報は、HPKIである」<br>
-・a：〇（Ⅲ284）<br>
-・b：× HPKI → EHR。HPKIは保健医療福祉分野で使用されるPKI（公開鍵基盤）（Ⅲ284,533）<br>
-・c：〇（Ⅲ289,533）<br>
-・d：〇（Ⅲ289,533）<br>
-・e：〇（Ⅲ289,533）`
+  "explanation_html": `
+✅ 正解：b「死亡統計には、オートコーディングシステムが用いられている」<br>
+(a) × IV207       市区町村長（作成）⇒ 保健所長 ⇒ 都道府県知事 ⇒ 厚労省の順<br>
+(b) ○ IV209<br>
+(c) × IV209      「疾病、傷害及び死因の統計分類基本分類表」を加えた3種類<br>
+(d) × IV210,214   死因分類表 → 疾病分類表<br>
+(e) × IV209,214   疾病分類表 → 疾病、傷害及び死因の統計分類基本分類表`
 },
  {
   "id": 19,
-  "title": "問19. 診療情報の二次利用について、まちがっているものを1つ選びなさい。",
+  "title": "【2020年 第4回模擬試験】<br>問19. ICD-10の修正について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "データウェアハウス（DWH）は、データの倉庫という意味である", "correct": false },
-    { "label": "b", "text": "DWHにデータを格納する際は、形式を統一する必要がある", "correct": false },
-    { "label": "c", "text": "データマイニングやOLAPは、データウェアハウスに格納されたデータを分析する手法である", "correct": false },
-    { "label": "d", "text": "ナショナルデータベース（NDB）は、厚生労働省が構築している手術症例データベースである", "correct": true },
-    { "label": "e", "text": "NDBのデータは、研究目的での利用に限り、厚生労働省に申請することで提供される", "correct": false }
+    { "label": "a", "text": "ICD-10の正式名称は、「国際疾病分類第10回改訂」である", "correct": false },
+    { "label": "b", "text": "例年10月に開催されるWHO-FICネットワーク会議において、毎年改正されている", "correct": true },
+    { "label": "c", "text": "WHO-FIC協力センターは、わが国を含む世界80ヶ所が指定されている", "correct": false },
+    { "label": "d", "text": "わが国では、WHOでの改正は翌年から適用される", "correct": false },
+    { "label": "e", "text": "コードの追加や削除は、小改正である", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「ナショナルデータベース（NDB）は、厚生労働省が構築している手術症例データベースである」<br>
-・a：〇（Ⅲ285）<br>
-・b：〇（Ⅲ285）<br>
-・c：〇（Ⅲ285）<br>
-・d：× 手術症例 → レセプトデータと特定健診・保健指導データ（Ⅲ286）<br>
-・e：〇（Ⅲ286）`
+  "explanation_html": `
+✅ 正解：b「例年10月に開催されるWHO-FICネットワーク会議において、毎年改正されている」<br>
+(a) × IV220  「疾病及び関連保健問題の国際統計分類第10回改訂」が正式名称<br>
+(b) ○ IV220,221<br>
+(c) × IV220   世界80ヶ所 → 世界18ヶ所（2017年4月現在）<br>
+(d) × IV222   翌年から適用されることはない<br>
+(e) × IV222   小改正 → 大改正`
 },
  {
   "id": 20,
-  "title": "問20. 医療情報の規格について、まちがっているものを1つ選びなさい。",
+  "title": "【2020年 第4回模擬試験】<br>問20. ファミリーについて、正しい組み合わせを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "XMLは、文書の電子的な処理に必要な情報を、タグを使って記述する", "correct": false },
-    { "label": "b", "text": "HL7は、病院内情報システム間の、医療情報交換規約である", "correct": false },
-    { "label": "c", "text": "DICOMは、インターネット用ソフトウェアに使われる記述言語である", "correct": true },
-    { "label": "d", "text": "SS-MIX2は、医療機関同士が、医療情報を交換・共有するための規約である", "correct": false },
-    { "label": "e", "text": "医薬品HOTコードマスターとICD10対応標準病名マスターは、厚生労働省標準規格である", "correct": false }
+    { "label": "a", "text": "DDD - 派生分類", "correct": false },
+    { "label": "b", "text": "ICD-O-3 - 中心分類", "correct": false },
+    { "label": "c", "text": "ICF-CY - 関連分類", "correct": false },
+    { "label": "d", "text": "ICD-10-NA - 関連分類", "correct": false },
+    { "label": "e", "text": "ICHI - 中心分類", "correct": true }
   ],
-  "explanation_html": `✅ 正解：c「DICOMは、インターネット用ソフトウェアに使われる記述言語である」<br>
-・a：〇（Ⅲ292）<br>
-・b：〇（Ⅲ292）<br>
-・c：× DICOM → XML。DICOMは医療用画像のための国際標準規格（Ⅲ293）<br>
-・d：〇（Ⅲ293）<br>
-・e：〇（Ⅲ297）`
+  "explanation_html": `
+✅ 正解：e「ICHI - 中心分類」<br>
+(a) ×   派生分類 → 関連分類<br>
+(b) ×   中心分類 → 派生分類<br>
+(c) ×   関連分類 → 派生分類<br>
+(d) ×   関連分類 → 派生分類<br>
+(e) ○`
 },
  {
   "id": 21,
-  "title": "問21. 変数の種類について、まちがっているものを1つ選びなさい。",
+  "title": "【2020年 第4回模擬試験】<br>問21. 原死因の選択ルールについて、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "連続データ、整数データは、量的データである", "correct": false },
-    { "label": "b", "text": "診断名は、質的データである", "correct": false },
-    { "label": "c", "text": "身長は、整数データである", "correct": true },
-    { "label": "d", "text": "がんのステージは、順序データである", "correct": false },
-    { "label": "e", "text": "体温は、連続データである", "correct": false }
+    { "label": "a", "text": "一般原則が適用できない場合、修正ルールを適用する", "correct": false },
+    { "label": "b", "text": "ルールA~ルールDは、選択ルールである", "correct": false },
+    { "label": "c", "text": "日本独自に定められた死亡診断書の様式と、ICDのルールに従い、決定する", "correct": false },
+    { "label": "d", "text": "選ばれた死因が老衰だった場合、ルールAを適用する", "correct": true },
+    { "label": "e", "text": "死亡診断書に最初に記載された病態に帰着する上下の因果関係の記載がない場合、ルール1を適用する", "correct": false }
   ],
-  "explanation_html": `✅ 正解：c「身長は、整数データである」<br>
-・a：〇（Ⅲ312）<br>
-・b：〇（Ⅲ312）<br>
-・c：× 身長は整数データではなく、連続データ（Ⅲ312）<br>
-・d：〇（Ⅲ312）<br>
-・e：〇（Ⅲ312）`
+  "explanation_html": `
+✅ 正解：d「選ばれた死因が老衰だった場合、ルールAを適用する」<br>
+(a) × IV251   一般原則 → 選択ルール → 修正ルールの順に適用する<br>
+(b) × IV250   選択ルール → 修正ルール<br>
+(c) × IV245   日本独自 → WHO<br>
+(d) ○ IV252<br>
+(e) × IV252   ルール1 → ルール2`
 },
  {
   "id": 22,
-  "title": "問22. 代表値と散布度について、正しいものを1つ選びなさい。",
+  "title": "【2021年 第1回模擬試験】<br>問22. ファミリーについて、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "変数の分布がひとつ山で左右対称ならば、代表値は中央値、散布度は四分位数を用いる", "correct": false },
-    { "label": "b", "text": "中央値は、外れ値の影響を受けにくい", "correct": true },
-    { "label": "c", "text": "分数の2乗したものを、標準偏差とよぶ", "correct": false },
-    { "label": "d", "text": "標準偏差は、中央値とペアで用いることが多い", "correct": false },
-    { "label": "e", "text": "変動幅は、「最大値－最小値」で求められる", "correct": false }
+    { "label": "a", "text": "関連分類は、中心分類を一部参照したり、構成の一部が中心分類と関連している分類である", "correct": true },
+    { "label": "b", "text": "プライマリケアに対する国際分類(ICPC-2)は、中心分類である", "correct": false },
+    { "label": "c", "text": "派生分類は、死亡・疾病・障害等に関する主要な軸となる分類である", "correct": false },
+    { "label": "d", "text": "国際生活機能分類(ICF)は、派生分類である", "correct": false },
+    { "label": "e", "text": "国際疾病分類-歯科学及び口腔科学への適用第3版(ICD-DA)は、中心分類である", "correct": false }
   ],
-  "explanation_html": `✅ 正解：b「中央値は、外れ値の影響を受けにくい」<br>
-・a：×（Ⅲ318）ひとつ山で左右対称ならば → ひとつ山ではない、または左右非対称ならば<br>
-・b：〇（Ⅲ320）<br>
-・c：×（Ⅲ321）標準偏差の2乗が分散である<br>
-・d：×（Ⅲ321）中央値 → 平均<br>
-・e：×（Ⅲ322）変動係数 → 範囲、変動係数は、標準偏差を平均で割った値`
+  "explanation_html": `
+✅ 正解：a「関連分類は、中心分類を一部参照したり、構成の一部が中心分類と関連している分類である」<br>
+IV228, NⅢ605,606<br>
+(a)<br>
+(b) × 中心分類 → 関連分類<br>
+(c) × 派生分類 → 中心分類<br>
+(d) × 派生分類 → 中心分類<br>
+(e) × 中心分類 → 派生分類`
 },
  {
   "id": 23,
-  "title": "問23. 「Y＝b×X＋a」の関係について、正しいものを1つ選びなさい。",
+  "title": "【2021年 第1回模擬試験】<br>問23. 原死因の選択ルールについて、まちがっているものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "変数Xは、予測変数である", "correct": false },
-    { "label": "b", "text": "aは、傾きである", "correct": false },
-    { "label": "c", "text": "X＝10のとき、Yは「b×10＋a」となる", "correct": true },
-    { "label": "d", "text": "曲線である", "correct": false },
-    { "label": "e", "text": "bが正の数の場合、Xの数が大きいほどYの値は小さくなる", "correct": false }
+    { "label": "a", "text": "ルール2は、選択ルールである", "correct": false },
+    { "label": "b", "text": "ルールAは、老衰その他の診断名不明確な病態についてのルールである", "correct": false },
+    { "label": "c", "text": "ルールA~ルールDは、修正ルールである", "correct": false },
+    { "label": "d", "text": "一般原則→選択ルール→修正ルールの順に適用する", "correct": false },
+    { "label": "e", "text": "ルール1は、軽微な病態についてのルールである", "correct": true }
   ],
-  "explanation_html": `✅ 正解：c「X＝10のとき、Yは『b×10＋a』となる」<br>
-・a：× 変数Xは説明変数（独立変数）、予測変数はY（Ⅲ341）<br>
-・b：× aは傾きではなく切片、傾きはb（Ⅲ341）<br>
-・c：〇（Ⅲ341）<br>
-・d：× 曲線ではなく直線（Ⅲ341）<br>
-・e：× 小さく → 大きく（Ⅲ341）`
+  "explanation_html": `
+✅ 正解：e「ルール1は、軽微な病態についてのルールである」<br>
+(a) IV250, NⅢ626<br>
+(b) IV252, NⅢ628<br>
+(c) IV250, NⅢ626<br>
+(d) IV251, NⅢ627<br>
+(e) × IV252, NⅢ628 ルール1→ルールB`
 },
  {
   "id": 24,
-  "title": "問24. 推測統計について、まちがっているものを1つ選びなさい。",
+  "title": "【2021年 第1回模擬試験】<br>問24. 主要病態の再選択ルール(MBルール)について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "知りたい対象の全体集合は、母集団である", "correct": false },
-    { "label": "b", "text": "全数調査を行う際は、無作為抽出を行う", "correct": true },
-    { "label": "c", "text": "母集団から抽出した標本の個体数を、標本サイズという", "correct": false },
-    { "label": "d", "text": "国勢調査は、全数調査の一例である", "correct": false },
-    { "label": "e", "text": "母集団における平均を、母平均という", "correct": false }
+    { "label": "a", "text": "MBとは、死因の意味である", "correct": false },
+    { "label": "b", "text": "MBルールには、4つのルールがある", "correct": false },
+    { "label": "c", "text": "まず、最も医療資源が使われた病態を選択する", "correct": false },
+    { "label": "d", "text": "主要病態の選択にあたっては、ルールMB1から順に適用する", "correct": false },
+    { "label": "e", "text": "WHOで用いる「main condition」に対応する訳語が「主要病態」である", "correct": true }
   ],
-  "explanation_html": `✅ 正解：b「全数調査を行う際は、無作為抽出を行う」<br>
-・a：〇（Ⅲ345）<br>
-・b：× 全数調査ではなく標本調査で無作為抽出を行う（Ⅲ345）<br>
-・c：〇（Ⅲ345）<br>
-・d：〇（Ⅲ345）<br>
-・e：〇（Ⅲ347）`
+  "explanation_html": `
+✅ 正解：e「WHOで用いる「main condition」に対応する訳語が「主要病態」である」<br>
+(a) × IV260, NⅢ636 死因 → 罹患(Morbidity)<br>
+(b) × IV260-261, NⅢ636-637 MB1~MB5の5つ。<br>
+(c) × IV259, NⅢ635 まず、最後に診断されたものを選択するが、そのような病態が複数ある場合に、最も医療資源が使われたものを選ぶ。<br>
+(d) × IV259, NⅢ635 最初に基本原則を適用し、その後MBルールを用いる。また、実務上は、まずは記載者の医師などに照会する。<br>
+(e) IV258, NⅢ634`
 },
  {
   "id": 25,
-  "title": "問25. 次のうち、点推定ではないものを1つ選びなさい。",
+  "title": "【2021年 第1回模擬試験】<br>問25. ICD-10の修正について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "母集団の出産時年齢を、平均で表す", "correct": false },
-    { "label": "b", "text": "母集団の年齢分布のばらつきを、標準偏差で表す", "correct": false },
-    { "label": "c", "text": "母集団の喫煙ありの母割合を、標本割合で表す", "correct": false },
-    { "label": "d", "text": "日本の出生体重の母平均を、95%信頼区間で表す", "correct": true },
-    { "label": "e", "text": "癌患者母集団の5年生存率を、標本による5年生存率で表す", "correct": false }
+    { "label": "a", "text": "WHOにおいては、小改正(Minor change)は、翌月から施行される", "correct": false },
+    { "label": "b", "text": "わが国においては、WHOでの改正の翌年から適用される", "correct": false },
+    { "label": "c", "text": "ICD-9からICD-10への修正は、改訂である", "correct": true },
+    { "label": "d", "text": "WHO-FICネットワーク会議において、およそ10年に1度、実施されている", "correct": false },
+    { "label": "e", "text": "小改正は3年、大改正は5年ごとに行われる", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「日本の出生体重の母平均を、95%信頼区間で表す」<br>
-・a：〇（Ⅲ349）点推定<br>
-・b：〇（Ⅲ349）点推定<br>
-・c：〇（Ⅲ349）点推定<br>
-・d：× 点推定は、ひとつの数値で表す推定。<br>
-       dは区間推定。<br>
-・e：〇（Ⅲ350）点推定`
+  "explanation_html": `
+✅ 正解：c「ICD-9からICD-10への修正は、改訂である」<br>
+(a) × IV222, NⅢ599 翌月→翌年1月<br>
+(b) × IV222, NⅢ599 翌年には適用されない。<br>
+(c) ○ IV220, NⅢ598<br>
+(d) × IV220, NⅢ599 およそ10年に1度→毎年<br>
+(e) × IV220, NⅢ598 小改正は毎年、大改正は3年ごと。`
 },
  {
   "id": 26,
-  "title": "問26. 有意差検定について、まちがっているものを1つ選びなさい。",
+  "title": "【2021年 第1回模擬試験】<br>問26. ICD-10について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "有意差検定は、推定の一種である", "correct": true },
-    { "label": "b", "text": "検定にあたっては、検定統計量を計算する", "correct": false },
-    { "label": "c", "text": "有意水準αは、多くの場合0.05に設定される", "correct": false },
-    { "label": "d", "text": "有意水準は、検定前に決めておく数値である", "correct": false },
-    { "label": "e", "text": "P値は、0≦P≦1である", "correct": false }
+    { "label": "a", "text": "索引表と内容例示表の2巻構成である", "correct": false },
+    { "label": "b", "text": "わが国の医療事情に適合した分類である", "correct": false },
+    { "label": "c", "text": "アルファベットに続く2桁の数字は、特定の章を示す", "correct": false },
+    { "label": "d", "text": "全体を一貫した分類軸をもつ", "correct": false },
+    { "label": "e", "text": "6桁目まで付番されるコードもある", "correct": true }
   ],
-  "explanation_html": `✅ 正解：a「有意差検定は、推定の一種である」<br>
-・a：× 推定ではなく仮説検定（Ⅲ352）<br>
-・b：〇（Ⅲ354）<br>
-・c：〇（Ⅲ355）<br>
-・d：〇（Ⅲ355）<br>
-・e：〇（Ⅲ358）`
+  "explanation_html": `
+✅ 正解：e「6桁目まで付番されるコードもある」<br>
+(a) × IV225, NⅢ602 内容例示表、総論、索引表の3巻構成。<br>
+(b) × IV225, NⅢ603 世界共通の分類であるため、各国の医療事情には必ずしも適合しない。<br>
+(c) × IV226, NⅢ604 特定の章→主にその部位<br>
+(d) × IV224, NⅢ601 必ずしも全体を一貫しない「多軸性」を特徴とする。<br>
+(e) ○ IV223, NⅢ600`
 },
  {
   "id": 27,
-  "title": "問27. グラフの特徴について、正しいものを1つ選びなさい。",
+  "title": "【2021年 第2回模擬試験】<br>問27. 人口統計について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "名義尺度の棒グラフは、左から右に並べる", "correct": false },
-    { "label": "b", "text": "棒グラフは、1つの集団の内部構造を一目で把握するのに有効である", "correct": false },
-    { "label": "c", "text": "折れ線グラフは、欠測値があると全体の傾向をつかみづらい", "correct": false },
-    { "label": "d", "text": "ヒストグラムは、横軸に量的データの階級をとる", "correct": true },
-    { "label": "e", "text": "箱ひげ図において、箱の上下のひげは四分位範囲を表す", "correct": false }
+    { "label": "a", "text": "動態統計のみである", "correct": false },
+    { "label": "b", "text": "動態統計は、一定期間における動きをとる", "correct": true },
+    { "label": "c", "text": "動態統計の代表は、国勢調査である", "correct": false },
+    { "label": "d", "text": "人口動態事象には、移転が含まれる", "correct": false },
+    { "label": "e", "text": "人口動態統計には、完全性、正確性、客観性が強く求められる", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「ヒストグラムは、横軸に量的データの階級をとる」<br>
-・a：× 名義尺度ではなく順序尺度（Ⅲ388）<br>
-・b：× 棒グラフではなく円グラフが有効（Ⅲ392）<br>
-・c：× 欠測値は傾向をつかむ障害にならない。（Ⅲ396）<br>
-・d：〇（Ⅲ398）<br>
-・e：× 箱のひげは四分位範囲ではなく最大値と最小値（Ⅲ401）`
+  "explanation_html": `
+✅ 正解：b「動態統計は、一定期間における動きをとる」<br>
+Ⅳ206-209,NⅢ583-587<br>
+(a) × Ⅳ206,NⅢ583 動態統計と静態統計がある。<br>
+(b) ○ Ⅳ206,NⅢ583<br>
+(c) × Ⅳ206,NⅢ583 国勢調査は静態統計。動態統計の代表は人口動態統計。<br>
+(d) × Ⅳ206,NⅢ584 移転は含まれない。<br>
+(e) × Ⅳ209,NⅢ586 正しくは「完全性、正確性、迅速性」。`
 },
  {
   "id": 28,
-"title": "問28. 下のグラフから読み取れる内容として、正しいものを1つ選びなさい（収縮期血圧の年齢別平均値）。<br><img src='plot.png' alt='収縮期血圧の年齢別平均値' style='max-width:300px;'>",
+  "title": "【2021年 第2回模擬試験】<br>問28. 国際統計分類ファミリーについて、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "すべての年代で男性が女性を上回る", "correct": false },
-    { "label": "b", "text": "男性は40代以降、急激に高くなる", "correct": false },
-    { "label": "c", "text": "女性は、40代以降、横ばい傾向である", "correct": false },
-    { "label": "d", "text": "男性は、年代が上がるにつれて高くなる", "correct": true },
-    { "label": "e", "text": "女性は、110mmHGを下回ることは無い", "correct": false }
+    { "label": "a", "text": "ICD は、関連分類である", "correct": false },
+    { "label": "b", "text": "ICF は、派生分類である", "correct": false },
+    { "label": "c", "text": "ICHI は、中心分類である", "correct": true },
+    { "label": "d", "text": "ICD-O は、関連分類である", "correct": false },
+    { "label": "e", "text": "ICPC は、派生分類である", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「男性は、年代が上がるにつれて高くなる」<br>
-・a：× 0代では女性が上回っている。（Ⅲ395）<br>
-・b：× 急激に高くなってはおらず、伸びはゆるやかになっている。（Ⅲ396）<br>
-・c：× 40代→50代（Ⅲ396）<br>
-・d：〇（Ⅲ397）<br>
-・e：× 30代で110mmHgを下回っている。（Ⅲ397）`
+  "explanation_html": `
+✅ 正解：c「ICHI は、中心分類である」<br>
+Ⅳ228-229,NⅢ605-606<br>
+(a) × 関連分類 → 中心分類<br>
+(b) × 派生分類 → 中心分類<br>
+(c) ○ <br>
+(d) × 関連分類 → 派生分類<br>
+(e) × 派生分類 → 関連分類`
 },
  {
   "id": 29,
-  "title": "問29. 厚生労働省が実施する統計調査について、正しいものを1つ選びなさい。",
+  "title": "【2021年 第2回模擬試験】<br>問29. ICF について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "患者調査は、病院と一部の診療所が調査対象である", "correct": false },
-    { "label": "b", "text": "受療行動調査は、すべての医療施設が調査対象である", "correct": false },
-    { "label": "c", "text": "医療施設調査の調査内容は、患者の傷病状態である", "correct": false },
-    { "label": "d", "text": "病院数の調査内容は、医療施設の分布や整備の実態、機能等である", "correct": false },
-    { "label": "e", "text": "医療施設調査の調査周期は、毎月および3年ごとである", "correct": true }
+    { "label": "a", "text": "個人因子については分類しない", "correct": true },
+    { "label": "b", "text": "第1部では、環境因子、個人因子を扱う", "correct": false },
+    { "label": "c", "text": "第2部では、生活機能と障害を扱う", "correct": false },
+    { "label": "d", "text": "環境因子は、その人の健康状況やその他の特徴のことである", "correct": false },
+    { "label": "e", "text": "個人因子は、物的·社会的な状況のことである", "correct": false }
   ],
-  "explanation_html": `✅ 正解：e「医療施設調査の調査周期は、毎月および3年ごとである」<br>
-・a：× 患者調査ではなく病院報告（Ⅲ403）<br>
-・b：× 受療行動調査ではなく医療施設調査（静態調査）（Ⅲ403）<br>
-・c：× 医療施設調査ではなく患者調査（Ⅲ403）<br>
-・d：× 病院数ではなく医療施設調査（Ⅲ403）<br>
-・e：〇 動態調査が毎月、静態調査が3年ごと（Ⅲ403）`
+  "explanation_html": `
+✅ 正解：a「個人因子については分類しない」<br>
+(a) ○ Ⅳ229,NⅢ607<br>
+(b) × Ⅳ231,NⅢ608 ICFの2つの部門のうち、第1部は生活機能と障害、第2部は背景因子。<br>
+(c) × Ⅳ231,NⅢ608<br>
+(d) × Ⅳ233,NⅢ610 環境因子は人々の物的、社会的な環境や、人々の社会的な態度による環境。個人因子は人々の人生や生活の特別な背景。これら2つの因子が背景因子を構成する。<br>
+(e) × Ⅳ233,NⅢ610`
 },
  {
   "id": 30,
-  "title": "問30. 医療評価指標について、正しいものを1つ選びなさい。",
+  "title": "【2021年 第2回模擬試験】<br>問30. ICD の修正について、まちがっているものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "精死率は、入院後48時間未満の死亡を除いて算出する", "correct": true },
-    { "label": "b", "text": "病床あたりの年間の利用患者数は、平均病床利用率で示される", "correct": false },
-    { "label": "c", "text": "病床利用率は、平均在院日数と比例する", "correct": false },
-    { "label": "d", "text": "紹介率は、医学教育・研究の評価や患者家族の満足度を示す", "correct": false },
-    { "label": "e", "text": "癌性腫瘍の5年生存率は、自院への再入院率で示される", "correct": false }
+    { "label": "a", "text": "ICD-10 から ICD-11 に変わるのは、改訂である", "correct": false },
+    { "label": "b", "text": "毎年行われる修正は、小改正である", "correct": false },
+    { "label": "c", "text": "WHO-FIC ネットワーク会議は、毎年開催される", "correct": false },
+    { "label": "d", "text": "わが国では、2013 年版が公的な統計に用いられている", "correct": false },
+    { "label": "e", "text": "2021 年現在、ICD-11 は公表されていない", "correct": true }
   ],
-  "explanation_html": `✅ 正解：a「精死率は、入院後48時間未満の死亡を除いて算出する」<br>
-・a：〇（Ⅲ411）<br>
-・b：× 平均病床利用率 → 病床回転率（Ⅲ411）<br>
-・c：× 比例 → 反比例（Ⅲ411）<br>
-・d：× 紹介率 → 剖検率（Ⅲ412-413）<br>
-・e：× 生存確認のための「予後調査」を行う。（Ⅲ414）`
+  "explanation_html": `
+✅ 正解：e「2021 年現在、ICD-11 は公表されていない」<br>
+Ⅳ220-222,NⅢ597-600 <br>
+(a) ○ Ⅳ220,NⅢ598 <br>
+(b) ○ Ⅳ220,NⅢ598 <br>
+(c) ○ Ⅳ221,NⅢ599 <br>
+(d) ○ Ⅳ222,NⅢ599 <br>
+(e) × Ⅳ222,NⅢ599 ICD-11は2018年にWHOから公表されている。`
 },
  {
   "id": 31,
-  "title": "問31. マッケクレンが提唱した「診療記録の価値」に、含まれないものを1つ選びなさい。",
+  "title": "【2021年 第2回模擬試験】<br>問31. 原死因について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "法的防御上の価値", "correct": false },
-    { "label": "b", "text": "医学研究上の価値", "correct": false },
-    { "label": "c", "text": "医療安全上の価値", "correct": true },
-    { "label": "d", "text": "医師にとっての価値", "correct": false },
-    { "label": "e", "text": "公衆衛生上の価値", "correct": false }
+    { "label": "a", "text": "死因統計は、厚生労働省のルールに基づいて作成される", "correct": false },
+    { "label": "b", "text": "原死因の決定は、各国の基準に従って行う", "correct": false },
+    { "label": "c", "text": "修正ルールは、ルール 1~ルール3である", "correct": false },
+    { "label": "d", "text": "選択ルールは、ルール A~ルールD である", "correct": false },
+    { "label": "e", "text": "死亡診断書に複数の病態が記載されている場合、まず一般原則を適用する", "correct": true }
   ],
-  "explanation_html": `✅ 正解：c「医療安全上の価値」<br>
-・a：〇（Ⅲ424-425）<br>
-・b：〇（Ⅲ424-425）<br>
-・c：× マッケクレンが提唱した価値には含まれない（Ⅲ424-425）<br>
-・d：〇（Ⅲ424-425）<br>
-・e：〇（Ⅲ424-425）`
+  "explanation_html": `
+✅ 正解：e「死亡診断書に複数の病態が記載されている場合、まず一般原則を適用する」<br>
+ Ⅳ245-258,NⅢ621-634<br>
+(a) × Ⅳ245,249,NⅢ622,625 厚生労働省のルールに基づいて → WHOの定めた(ICDの)ルールに従って決定した原死因に基づいて<br>
+(b) × Ⅳ245,NⅢ622 各国の基準 → ICDのルール。<br>
+(c) × Ⅳ250,NⅢ626 修正ルール → 選択ルール。<br>
+(d) × Ⅳ250,NⅢ626 選択ルール → 修正ルール。<br>
+(e) ○ Ⅳ251,NⅢ627`
 },
  {
   "id": 32,
-  "title": "問32. 医療に関連する法規について、正しいものを1つ選びなさい。",
+  "title": "【2022年 第2回模擬試験】<br>問32. 人口統計について、まちがっているものを1つ選びなさい。",
   "options": [
-    { "label": "a", "text": "医療監視員による立入検査は、民事訴訟法に規定されている", "correct": false },
-    { "label": "b", "text": "弁護士法に基づく弁護士会からの照会により診療記録を提示する場合は、患者の同意は不要である", "correct": false },
-    { "label": "c", "text": "債務不履行に基づく損害賠償請求権の消滅時効は、10年である", "correct": true },
-    { "label": "d", "text": "刑法における秘密漏示罪は、医療関係者として、医師、歯科医師のみが該当する", "correct": false },
-    { "label": "e", "text": "医療法における秘密漏洩は、公務員については当てはまらない", "correct": false }
+    { "label": "a", "text": "静態統計の代表は国勢調査である", "correct": false },
+    { "label": "b", "text": "人口動態事象には、出生、離婚、婚姻の無効が含まれる", "correct": false },
+    { "label": "c", "text": "人口動態調査においては、オンライン報告システムが導入されている", "correct": false },
+    { "label": "d", "text": "人口動態調査と国勢調査は、国の主要統計である", "correct": false },
+    { "label": "e", "text": "人口動態調査資料は、都道府県が作成する調査票である", "correct": true }
   ],
-  "explanation_html": `✅ 正解：c「債務不履行に基づく損害賠償請求権の消滅時効は、10年である」<br>
-・a：× 民事訴訟法ではなく医療法（Ⅲ443-444）<br>
-・b：× 診療記録を提示する際には患者の同意が必要（Ⅲ444）<br>
-・c：〇（Ⅲ447）<br>
-・d：× 医師・歯科医師の他に薬剤師、医薬品販売業者、助産師も該当（Ⅲ449）<br>
-・e：× 公務員については → 公務員以外については（Ⅲ449）`
+  "explanation_html": `
+✅ 正解：e「人口動態調査資料は、都道府県が作成する調査票である」<br>
+a. ○ Ⅲ583<br>
+b. ○ Ⅲ584<br>
+c. ○ Ⅲ584<br>
+d. ○ Ⅲ585<br>
+e. × Ⅲ585 都道府県 → 市区町村長`
 },
  {
   "id": 33,
-  "title": "問33. 個人情報の保護について、まちがっているものを1つ選びなさい。",
+  "title": "【2022年 第2回模擬試験】<br>問33. ICFの部門と構成要素について、正しい組み合わせを1つ選びなさい。",
   "options": [
-    { "label": "a", "text": "雇用契約や就業規則における守秘義務に、離職後についても含めるべきである", "correct": false },
-    { "label": "b", "text": "従業員教育は、派遣労働者に対しても行うことが望ましい", "correct": false },
-    { "label": "c", "text": "医師個人や医局の端末に、個人情報を入れないよう徹底すべきである", "correct": true },
-    { "label": "d", "text": "技術的安全管理措置として、個人データに対するアクセス記録を保存すべきである", "correct": false },
-    { "label": "e", "text": "個人データの取り扱いを外部に委託する場合、委託契約に安全管理措置の内容を盛り込むべきである", "correct": false }
+    { "label": "a", "text": "背景因子 － 第1部", "correct": false },
+    { "label": "b", "text": "心身機能・身体構造 － 第2部", "correct": false },
+    { "label": "c", "text": "活動・参加 － 第1部の構成要素", "correct": true },
+    { "label": "d", "text": "環境因子 － 第1部の構成要素", "correct": false },
+    { "label": "e", "text": "生活機能と障害 － 第2部の構成要素", "correct": false }
   ],
-  "explanation_html": `✅ 正解：c「医師個人や医局の端末に、個人情報を入れないよう徹底すべきである」<br>
-・a：〇（Ⅲ464）<br>
-・b：〇（Ⅲ465）<br>
-・c：× 個人情報を入れない → 漏えいの危険性を認識させる（Ⅲ465）<br>
-・d：〇（Ⅲ467）<br>
-・e：〇（Ⅲ468）`
+  "explanation_html": `
+✅ 正解：c「活動・参加 － 第1部の構成要素」<br>
+Ⅲ609<br>
+a. × 第1部 → 第2部<br>
+b. × 第2部 → 第1部の構成要素<br>
+c. ○<br>
+d. × 第1部の構成要素 → 第2部の構成要素<br>
+e. × 第2部の構成要素 → 第1部`
 },
  {
   "id": 34,
-  "title": "問34. 診療録の種類と記載事項について、正しいものを1つ選びなさい。",
+  "title": "【2022年 第2回模擬試験】<br>問34. ICD-Oについて、まちがっているものを1つ選びなさい。",
   "options": [
-    { "label": "a", "text": "主訴には、入院の直接の契機となった理由を記載する", "correct": false },
-    { "label": "b", "text": "現病歴には、全身の状態および各臓器の状態について記載する", "correct": false },
-    { "label": "c", "text": "入院診療計画書の作成と文書による説明は、義務とされている", "correct": true },
-    { "label": "d", "text": "入院診療計画書について、入院後3日以内に説明を行うこととされている", "correct": false },
-    { "label": "e", "text": "入院診療計画書について患者に説明後、原本を診療録に貼付することとされている", "correct": false }
+    { "label": "a", "text": "局在コードは、体のどこに腫瘍があるかを表す", "correct": false },
+    { "label": "b", "text": "形態コードは、顕微鏡で見たときにどのような性質の腫瘍であるかを表す", "correct": false },
+    { "label": "c", "text": "局在コードとICD-10コードは、コード表記が一致すれば同じことを表す", "correct": true },
+    { "label": "d", "text": "局在コードは、C00～C80で表現される", "correct": false },
+    { "label": "e", "text": "形態コードのM-に続く4桁の数字は、新生物の組織型を示す", "correct": false }
   ],
-  "explanation_html": `✅ 正解：c「入院診療計画書の作成と文書による説明は、義務とされている」<br>
-・a：× 主訴 → 入院目的（Ⅲ485）<br>
-・b：× 現病歴 → 現症および身体所見（Ⅲ486）<br>
-・c：〇（Ⅲ487）<br>
-・d：× 3日以内 → 7日以内（Ⅲ487）<br>
-・e：× 原本は患者に交付し、写しを診療録に貼付する（Ⅲ488）`
+  "explanation_html": `
+✅ 正解：c「局在コードとICD-10コードは、コード表記が一致すれば同じことを表す」<br>
+a. ○ Ⅲ616<br>
+b. ○ Ⅲ616<br>
+c. × Ⅲ616 同じ → 異なる<br>
+d. ○ Ⅲ617<br>
+e. ○ Ⅲ618`
 },
  {
   "id": 35,
-  "title": "問35. 末位桁番号ファイリング法の特徴として、正しいものを1つ選びなさい。",
+  "title": "【2022年 第2回模擬試験】<br>問35. 原死因の選択について、正しいものを1つ選びなさい。",
   "options": [
-    { "label": "a", "text": "大量の連続番号の診療記録を抽出する作業が、容易にできる", "correct": false },
-    { "label": "b", "text": "ミスファイルの可能性が高い", "correct": false },
-    { "label": "c", "text": "保管棚を均等に使用できない", "correct": false },
-    { "label": "d", "text": "チェックデジットを除いた末桁を用いる", "correct": true },
-    { "label": "e", "text": "番号が連続した100冊の診療記録を取り出すのに便利である", "correct": false }
+    { "label": "a", "text": "原死因を最初に選ぶために設けられた基本的なルールは、ルール1である", "correct": false },
+    { "label": "b", "text": "修正ルールは、ルール1～ルール3である", "correct": false },
+    { "label": "c", "text": "選択ルールは、ルールA～Dである", "correct": false },
+    { "label": "d", "text": "選ばれた死因が、老衰及びその他の診断名不明確な病態である場合のルールは、ルールAである", "correct": true },
+    { "label": "e", "text": "軽微な病態についてのルールは、ルール2である", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「チェックデジットを除いた末桁を用いる」<br>
-・a：× 連続番号順ファイリング法の特徴。<br>
-・b：× 連続番号順ファイリング法の特徴。<br>
-・c：× できない → 可能である<br>
-・d：〇（Ⅲ518）<br>
-・e：× 中間位桁番号ファイリング法の特徴。`
+  "explanation_html": `
+✅ 正解：d「選ばれた死因が、老衰及びその他の診断名不明確な病態である場合のルールは、ルールAである」<br>
+a. × Ⅲ626 ルール1 → 一般原則<br>
+b. × Ⅲ626 修正ルール → 選択ルール<br>
+c. × Ⅲ626 選択ルール → 修正ルール<br>
+d. ○ Ⅲ628<br>
+e. × Ⅲ628 ルール2 → ルールB`
 },
  {
   "id": 36,
-  "title": "問36. 診療記録の保存について、まちがっているものを1つ選びなさい。",
+  "title": "【2022年 第2回模擬試験】<br>問36. 主要病態の選択について、まちがっているものを1つ選びなさい。",
   "options": [
-    { "label": "a", "text": "利用頻度の低い診療記録を、インアクティブファイルという", "correct": false },
-    { "label": "b", "text": "すべての診療記録を現物保管する必要はない", "correct": false },
-    { "label": "c", "text": "紙の診療記録をデジタル化した場合においても、法的な保存期間を経過していない診療記録は廃棄できない", "correct": false },
-    { "label": "d", "text": "バージングとは、法的な保存期間を経過した診療記録を選別する作業である", "correct": true },
-    { "label": "e", "text": "バージングは、追い出し作業ともよばれている", "correct": false }
+    { "label": "a", "text": "医療が必要となった原因である病態のうち、最後に診断されたものを選ぶ", "correct": false },
+    { "label": "b", "text": "最後に診断された病態が複数あった場合、最も医療資源が使われた病態を選ぶ", "correct": false },
+    { "label": "c", "text": "診断がなされなかった場合、主要症状、異常な所見、問題を選ぶ", "correct": false },
+    { "label": "d", "text": "外因による損傷およびその他の病態については、外因の状況を優先する", "correct": true },
+    { "label": "e", "text": "急性と慢性の両者が記載されている場合、急性病態を優先する", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「バージングとは、法的な保存期間を経過した診療記録を選別する作業である」<br>
-・a：〇（Ⅲ519）<br>
-・b：〇（Ⅲ519）<br>
-・c：〇（Ⅲ519）<br>
-・d：× 法的な保存期間を経過した → 使用頻度の低い（Ⅲ520）<br>
-・e：〇（Ⅲ520）`
+  "explanation_html": `
+✅ 正解：d「外因による損傷およびその他の病態については、外因の状況を優先する」<br>
+a. ○ Ⅲ635<br>
+b. ○ Ⅲ635<br>
+c. ○ Ⅲ635<br>
+d. × Ⅲ638 外因の状況 → 病態の性質を記述するもの<br>
+e. ○ Ⅲ638`
 },
  {
   "id": 37,
-  "title": "問37. 紙文書のスキャンを、外来や病棟で行う場合の特徴として、まちがっているものを1つ選びなさい。",
+  "title": "【2023年 第1回模擬試験】<br>問37. 人口統計について、まちがっているものを1つ選びなさい。",
   "options": [
-    { "label": "a", "text": "作成または取得からスキャンまでに時間がかかる", "correct": true },
-    { "label": "b", "text": "電子カルテによる参照がすぐにできる", "correct": false },
-    { "label": "c", "text": "スキャンすべきでない文書が混ざりやすい", "correct": false },
-    { "label": "d", "text": "他患者の情報を混在したスキャンが起きやすい", "correct": false },
-    { "label": "e", "text": "スキャン後の文書の保管が徹底されない", "correct": false }
+    { "label": "a", "text": "静態統計と動態統計がある", "correct": false },
+    { "label": "b", "text": "静態統計の代表は、国勢調査である", "correct": false },
+    { "label": "c", "text": "動態統計の代表は、人口動態統計である", "correct": false },
+    { "label": "d", "text": "人口動態事象に、死産は含まれない", "correct": true },
+    { "label": "e", "text": "人口動態統計に、わが国ではオンライン報告システムが導入されている", "correct": false }
   ],
-  "explanation_html": `✅ 正解：a「作成または取得からスキャンまでに時間がかかる」<br>
-・a：× 中央で一元的にスキャンする場合の特徴（Ⅲ537）<br>
-・b：〇（Ⅲ537）<br>
-・c：〇（Ⅲ537）<br>
-・d：〇（Ⅲ537）<br>
-・e：〇（Ⅲ537）`
+  "explanation_html": `
+✅ 正解：d「人口動態事象に、死産は含まれない」<br>
+・a：〇（Ⅲ583）<br>
+・b：〇（Ⅲ583）<br>
+・c：〇（Ⅲ583）<br>
+・d：× 含まれない → 含まれる（Ⅲ584）<br>
+・e：〇（Ⅲ584）`
 },
  {
   "id": 38,
-  "title": "問38. 診療録管理体制加算1に関する施設基準として、まちがっているものを1つ選びなさい。",
+  "title": "【2023年 第1回模擬試験】<br>問38. ICD-10の改正について、正しい組み合わせを1つ選びなさい。",
   "options": [
-    { "label": "a", "text": "過去3年間の手術記録が全て保管されている", "correct": false },
-    { "label": "b", "text": "診療録管理部門または診療記録管理委員会が設置されている", "correct": false },
-    { "label": "c", "text": "ICD4桁または5桁の疾病分類がなされている", "correct": false },
-    { "label": "d", "text": "年間の退院患者数2,000名ごとに1名以上、専任の常勤診療記録管理者を配置している", "correct": false },
-    { "label": "e", "text": "退院時要約が、全患者の9割以上について作成されている", "correct": true }
+    { "label": "a", "text": "新たな用語の索引への導入　―　大改正", "correct": true },
+    { "label": "b", "text": "新たなコードの追加　―　小改正", "correct": false },
+    { "label": "c", "text": "コードの削除　―　小改正", "correct": false },
+    { "label": "d", "text": "コードの表現強化　―　大改正", "correct": false },
+    { "label": "e", "text": "コードの移動　―　小改正", "correct": false }
   ],
-  "explanation_html": `✅ 正解：e「退院時要約が、全患者の9割以上について作成されている」<br>
-・a：〇（Ⅲ562）<br>
-・b：〇（Ⅲ562）<br>
-・c：〇（Ⅲ562）<br>
-・d：〇（Ⅲ562）<br>
-・e：× 全患者の9割以上 → 全ての患者（Ⅲ562）`
+  "explanation_html": `
+✅ 正解：a「新たな用語の索引への導入 ― 大改正」<br>
+・a：〇（Ⅲ600）<br>
+・b：× 小改正 → 大改正（Ⅲ600）<br>
+・c：× 小改正 → 大改正（Ⅲ600）<br>
+・d：× 大改正 → 小改正（Ⅲ600）<br>
+・e：× 小改正 → 大改正（Ⅲ600）`
 },
  {
   "id": 39,
-  "title": "問39. 医師事務作業補助者の業務について、まちがっているものを1つ選びなさい。",
+  "title": "【2023年 第1回模擬試験】<br>問39. ICFの部門と構成要素について、まちがっているものを1つ選びなさい。",
   "options": [
-    { "label": "a", "text": "カンファレンスの準備作業は、業務に含まれる", "correct": false },
-    { "label": "b", "text": "病棟や外来以外の場所において、業務を行うことができる", "correct": false },
-    { "label": "c", "text": "業務を管理・改善するための責任者として、常勤の医療事務作業補助者を置くこととされている", "correct": true },
-    { "label": "d", "text": "研修内容には、電子カルテシステムやオーダリングシステムが含まれる", "correct": false },
-    { "label": "e", "text": "研修内容には、関連法規が含まれる", "correct": false }
+    { "label": "a", "text": "生活機能と障害は、第1部である", "correct": false },
+    { "label": "b", "text": "背景因子は、第1部の構成要素である", "correct": true },
+    { "label": "c", "text": "活動・参加は、第1部の構成要素である", "correct": false },
+    { "label": "d", "text": "環境因子は、第2部の構成要素である", "correct": false },
+    { "label": "e", "text": "個人因子は、第2部の構成要素である", "correct": false }
   ],
-  "explanation_html": `✅ 正解：c「業務を管理・改善するための責任者として、常勤の医療事務作業補助者を置くこととされている」<br>
-・a：〇（Ⅲ572）<br>
-・b：〇（Ⅲ572）<br>
-・c：× 医師事務作業補助者の → 医師事務作業補助者以外の（Ⅲ573）<br>
-・d：〇（Ⅲ573）<br>
-・e：〇（Ⅲ573）`
+  "explanation_html": `
+✅ 正解：b「背景因子は、第1部の構成要素である」<br>
+・a：〇（Ⅲ609）<br>
+・b：× 第1部 → 第2部（Ⅲ609）<br>
+・c：〇（Ⅲ609）<br>
+・d：〇（Ⅲ609）<br>
+・e：〇（Ⅲ609）`
 },
  {
   "id": 40,
-  "title": "問40. がん登録について、正しい組み合わせを1つ選びなさい。",
+  "title": "【2023年 第1回模擬試験】<br>問40. ICD-Oについて、正しいものを1つ選びなさい。",
   "options": [
-    { "label": "a", "text": "全国がん登録 ― 都道府県知事が実施", "correct": false },
-    { "label": "b", "text": "法令によるがん登録 ― 全国がん登録、地域がん登録", "correct": false },
-    { "label": "c", "text": "地域がん登録 ― 学会や研究会が実施", "correct": true },
-    { "label": "d", "text": "臓器がん登録 ― 各医療機関が実施", "correct": false },
-    { "label": "e", "text": "院内がん登録 ― 標準登録様式", "correct": false }
+    { "label": "a", "text": "局在のみで新生物を表現する、派生分類である", "correct": false },
+    { "label": "b", "text": "局在コード（T分類）は、組織型を記す", "correct": false },
+    { "label": "c", "text": "局在コード（T分類）は、C00−D48で表現される", "correct": false },
+    { "label": "d", "text": "M−に続くコードの4桁目は、分化度を表す", "correct": false },
+    { "label": "e", "text": "M−に続くコードの5桁目は、性状を表す", "correct": true }
   ],
-  "explanation_html": `✅ 正解：c「地域がん登録 ― 学会や研究会が実施」<br>
-・a：× 都道府県知事 → 国（Ⅲ575）<br>
-・b：× 全国がん登録、地域がん登録 → 全国がん登録、院内がん登録（Ⅲ575）<br>
-・c：〇 学会や研究会 → 都道府県など。なお、地域がん登録は全国がん登録に一本化されつつある。（Ⅲ576）<br>
-・d：× 医療機関 → 学会や研究会（Ⅲ576）<br>
-・e：〇（Ⅲ578）`
+  "explanation_html": `
+✅ 正解：e「M−に続くコードの5桁目は、性状を表す」<br>
+・a：× 局在コード、形態コードの2体系により表現される（Ⅲ616）<br>
+・b：× 局在コード（T分類）→形態コードの4桁数字。局在コード（T分類）は部位を表す（Ⅲ616-617）<br>
+・c：× C00−D48 → C00−C80（Ⅲ617）<br>
+・d：× M-に続く4桁数字は新生物の組織型を表す。分化度は6桁目（Ⅲ618）<br>
+・e：〇（Ⅲ618）`
 },
  {
   "id": 41,
-  "title": "問41. わが国の人口動態統計について、まちがっているものを1つ選びなさい。",
+  "title": "【2023年 第1回模擬試験】<br>問41. 原死因について、まちがっているものを1つ選びなさい。",
+  "options": [
+    { "label": "a", "text": "まず最初に、一般原則から適用する", "correct": false },
+    { "label": "b", "text": "選択ルールは、原死因の選択をやり直す方法である", "correct": false },
+    { "label": "c", "text": "選択ルールは、ルール1〜3である", "correct": false },
+    { "label": "d", "text": "修正ルールは、記載方法に問題がある場合に用いる", "correct": true },
+    { "label": "e", "text": "修正ルールは、ルールA〜Dである", "correct": false }
+  ],
+  "explanation_html": `
+✅ 正解：d「修正ルールは、記載方法に問題がある場合に用いる」<br>
+・a：〇（Ⅲ626）<br>
+・b：〇（Ⅲ626）<br>
+・c：〇（Ⅲ626）<br>
+・d：× 修正ルール → 選択ルール。修正ルールは、選択された原死因より他の診断の方が死亡統計の作成に相応しい場合に用いる（Ⅲ626-627）<br>
+・e：〇（Ⅲ627）`
+},
+  {
+  "id": 42,
+  "title": "【2023年 第2回模擬試験】<br>問42．ファミリーについて、まちがっているものを1つ選びなさい",
+  "options": [
+    { "label": "a", "text": "国際疾病分類（ICD）は、中心分類である", "correct": false },
+    { "label": "b", "text": "国際生活機能分類（ICF）は、中心分類である", "correct": false },
+    { "label": "c", "text": "医療行為の分類（ICHI）は、関連分類である", "correct": true },
+    { "label": "d", "text": "看護の分類（ICNP）は、関連分類である", "correct": false },
+    { "label": "e", "text": "国際疾病分類－腫瘍学第3版（ICD-O-3）は、派生分類である", "correct": false }
+  ],
+  "explanation_html": `
+✅ 正解：c「医療行為の分類（ICHI）は、関連分類である」<br>
+・c：×関連 → 中心
+  `
+},
+ {
+  "id": 43,
+  "title": "【2023年 第2回模擬試験】<br>問43．国際生活機能分類（ICF）について、正しいものを1つ選びなさい",
+  "options": [
+    { "label": "a", "text": "心身機能とは、器官・肢体など身体の解剖学的部分である", "correct": false },
+    { "label": "b", "text": "身体構造とは、身体系の生理的機能である", "correct": false },
+    { "label": "c", "text": "活動とは、生活・人生場面への関わりである", "correct": false },
+    { "label": "d", "text": "参加とは、課題や行為の個人による遂行である", "correct": false },
+    { "label": "e", "text": "個人因子は、ICFでは分類されない", "correct": true }
+  ],
+  "explanation_html": `
+✅ 正解：e「個人因子は、ICFでは分類されない」<br>
+・a：×（Ⅲ609）心身機能 → 身体構造<br>
+・b：×（Ⅲ609）身体構造 → 心身機能<br>
+・c：×（Ⅲ609）活動 → 参加<br>
+・d：×（Ⅲ609）参加 → 活動<br>
+・e：〇（Ⅲ610）
+  `
+},
+ {
+  "id": 44,
+  "title": "【2023年 第2回模擬試験】<br>問44．人口動態調査について、正しいものを1つ選びなさい",
+  "options": [
+    { "label": "a", "text": "医師が調査票を作成し、市区町村長に届出を行う", "correct": false },
+    { "label": "b", "text": "調査票の作成にあたっては、オートコーディングシステムが用いられる", "correct": false },
+    { "label": "c", "text": "調査の対象は、出生、死亡、死産、婚姻、離婚である", "correct": true },
+    { "label": "d", "text": "調査票は、市区町村長から直接、厚生労働省に提出される", "correct": false },
+    { "label": "e", "text": "統計作成にあたっては、完全性、正確性、論理性が必要である", "correct": false }
+  ],
+  "explanation_html": `
+✅ 正解：c「調査の対象は、出生、死亡、死産、婚姻、離婚である」<br>
+・a：×（Ⅲ585）調査票は届出を受けた市区町村長が作成する<br>
+・b：×（Ⅲ587）オートコーディングシステムは厚生労働省における原死因選択で使用される<br>
+・c：〇（Ⅲ585）<br>
+・d：×（Ⅲ585）市区町村長 → 保健所長 → 都道府県知事 → 厚生労働省の順で提出<br>
+・e：×（Ⅲ586）論理性 → 迅速性
+  `
+},
+ {
+  "id": 45,
+  "title": "【2023年 第2回模擬試験】<br>問45．ICD-10の改善について、まちがっているものを1つ選びなさい",
+  "options": [
+    { "label": "a", "text": "小改正は、WHOにおいては翌年1月から施行される", "correct": false },
+    { "label": "b", "text": "わが国においては、2013年版は2016年から適用されている", "correct": false },
+    { "label": "c", "text": "ICD-10からICD-11への修正は、改訂である", "correct": false },
+    { "label": "d", "text": "WHO-FICネットワーク会議において、3年ごとに改正されている", "correct": true },
+    { "label": "e", "text": "WHO-FIC協力センターは、2017年4月現在、わが国を含む世界18ヶ所が指定されている", "correct": false }
+  ],
+  "explanation_html": `
+✅ 正解：d「WHO-FICネットワーク会議において、3年ごとに改正されている」<br>
+・a：〇（Ⅲ599）<br>
+・b：〇（Ⅲ599）<br>
+・c：〇（Ⅲ598）<br>
+・d：×（Ⅲ598）3年ごとに → 毎年<br>
+・e：〇（Ⅲ598）
+  `
+},
+ {
+  "id": 46,
+  "title": "【2023年 第2回模擬試験】<br>問46．主要病態の選択について、正しいものを1つ選びなさい",
+  "options": [
+    { "label": "a", "text": "MBルールという名称は、死因という意味の単語が元になっている", "correct": false },
+    { "label": "b", "text": "エピソードにおいて、最初に診断されたものを選択する", "correct": false },
+    { "label": "c", "text": "病態が複数ある場合、すべての病態を引き起こす可能性のある病態を選択する", "correct": false },
+    { "label": "d", "text": "急性と慢性の両者が記載されている場合、急性病態を優先する", "correct": true },
+    { "label": "e", "text": "MBルールは、MB1〜MB6の6つである", "correct": false }
+  ],
+  "explanation_html": `
+✅ 正解：d「急性と慢性の両者が記載されている場合、急性病態を優先する」<br>
+・a：×（Ⅲ636）死因 → 罹病（Morbidity）<br>
+・b：×（Ⅲ635）最初 → 最後<br>
+・c：×（Ⅲ635）すべての病態を引き起こす可能性のある病態 → 最も医療資源が使われた病態<br>
+・d：〇（Ⅲ638）<br>
+・e：×（Ⅲ637）MB1～MB6の6つ → MB1～MB5の5つ
+  `
+},
+ {
+  "id": 47,
+  "title": "【2023年 第3回模擬試験】<br>問47. わが国の人口動態統計について、まちがっているものを1つ選びなさい。",
   "options": [
     { "label": "a", "text": "当初の調査項目は、出生、死亡のみであった", "correct": false },
     { "label": "b", "text": "人口動態調査は、統計法に基づく基幹統計調査である", "correct": false },
@@ -794,8 +951,8 @@ const DATA = [
 ・e：× 大、小分類の2表 → 大、中、小分類の3表（Ⅲ592）`
 },
  {
-  "id": 42,
-  "title": "問42. ICD-10の構造について、まちがっているものを1つ選びなさい。",
+  "id": 48,
+  "title": "【2023年 第3回模擬試験】<br>問48. ICD-10の構造について、まちがっているものを1つ選びなさい。",
   "options": [
     { "label": "a", "text": "約14,000もの項目がある", "correct": false },
     { "label": "b", "text": "Bertillonの分類を基本として構成されている", "correct": true },
@@ -811,8 +968,8 @@ const DATA = [
 ・e：〇（Ⅲ602）`
 },
  {
-  "id": 43,
-  "title": "問43. ICD-Oについて、正しいものを1つ選びなさい。",
+  "id": 49,
+  "title": "【2023年 第3回模擬試験】<br>問49. ICD-Oについて、正しいものを1つ選びなさい。",
   "options": [
     { "label": "a", "text": "悪性、良性、性状不詳がコードできる", "correct": true },
     { "label": "b", "text": "原発性と続発性は、同じ表記となる", "correct": false },
@@ -828,8 +985,8 @@ const DATA = [
 ・e：× 同じではない。（Ⅲ616-617）`
 },
  {
-  "id": 44,
-  "title": "問44. 原死因の選択ルールについて、正しいものを1つ選びなさい。",
+  "id": 50,
+  "title": "【2023年 第3回模擬試験】<br>問50. 原死因の選択ルールについて、正しいものを1つ選びなさい。",
   "options": [
     { "label": "a", "text": "ルールA〜ルールDは、選択ルールである", "correct": false },
     { "label": "b", "text": "ルール1は、基本原則である", "correct": false },
@@ -845,8 +1002,8 @@ const DATA = [
 ・e：× ルールA → ルールB（Ⅲ628）`
 },
  {
-  "id": 45,
-  "title": "問45. 主要病態の再選択ルールについて、まちがっているものを1つ選びなさい。",
+  "id": 51,
+  "title": "【2023年 第3回模擬試験】<br>問51. 主要病態の再選択ルールについて、まちがっているものを1つ選びなさい。",
   "options": [
     { "label": "a", "text": "原死因の選択ルールとは別物である", "correct": false },
     { "label": "b", "text": "エピソードのなかで、最後に診断されたものを主要病態とする", "correct": false },
@@ -861,224 +1018,284 @@ const DATA = [
 ・d：〇（Ⅲ636-637）<br>
 ・e：× 疑診は確診として扱う（Ⅲ637）`
 },
- {
-  "id": 46,
-  "title": "問46. ICD-10について、まちがっているものを1つ選びなさい。",
-  "options": [
-    { "label": "a", "text": "世界各国が共通の分類表を用いることが、基本原則である", "correct": false },
-    { "label": "b", "text": "「内容例示表」だけを単独に用いて、疾病を分類することは困難である", "correct": false },
-    { "label": "c", "text": "二重分類とは、剣印（†）と星印（＊）を用いて分類するシステムのことである", "correct": true },
-    { "label": "d", "text": "剣印（†）は原疾患、星印（＊）は病態等を意味する", "correct": false },
-    { "label": "e", "text": "コーディング支援ソフトウェアを使用しても、ミスコーディングを防ぐことはできない", "correct": false }
-  ],
-  "explanation_html": `✅ 正解：c「二重分類とは、剣印（†）と星印（＊）を用いて分類するシステムのことである」<br>
-・a：〇（Ⅲ654）<br>
-・b：〇（Ⅲ655）<br>
-・c：× 単一のコードだけでは十分な情報を伝えられない場合、任意の追加コードで情報を補う方法もある。（Ⅲ660）<br>
-・d：〇（Ⅲ659）<br>
-・e：〇（Ⅲ667）`
-},
- {
-  "id": 47,
-  "title": "問47. ICD-10のコーディングについて、正しいものを1つ選びなさい。",
-  "options": [
-    { "label": "a", "text": "薬剤耐性の病原体は、Bコードである", "correct": false },
-    { "label": "b", "text": "腎不全については、急性・慢性の区別なくコードされる", "correct": false },
-    { "label": "c", "text": "第XV章における直接産科死亡は、すべてに優先して分類する", "correct": true },
-    { "label": "d", "text": "妊娠期間において、正期産とは妊娠37週から満39週未満をいう", "correct": false },
-    { "label": "e", "text": "O80〜O84は、第XV章に分類される病態が記録されている場合のみ、一次疾病コーディングとして使用できる", "correct": false }
-  ],
-  "explanation_html": `✅ 正解：c「第XV章における直接産科死亡は、すべてに優先して分類する」<br>
-a. × Ⅲ668 Bコード → Uコード（U82〜U85）<br>
-b. × Ⅲ706 腎不全は、急性腎不全と慢性腎臓病に整理され、慢性腎臓病については病期別分類が導入されている。<br>
-c. ○ Ⅲ709<br>
-d. × Ⅲ710 妊娠満37週から満39週未満 → 妊娠満37週から満42週未満<br>
-e. × Ⅲ711 記録されている場合 → 記録されていない場合`
-},
- {
-  "id": 48,
-  "title": "問48. ICD-10のコーディングについて、まちがっているものを1つ選びなさい。",
-  "options": [
-    { "label": "a", "text": "1つのサマリーにOとPの双方が記載されることはない", "correct": false },
-    { "label": "b", "text": "低出生体重は、2,500g未満である", "correct": false },
-    { "label": "c", "text": "過体重は、妊娠期間と関係なく、期間に比して過体重の胎児・新生児を指す", "correct": false },
-    { "label": "d", "text": "死亡の原因が第X章の病態である場合、死亡統計には第IX章を用いる", "correct": true },
-    { "label": "e", "text": "死因統計において、原死因の分類に5桁目は不要である", "correct": false }
-  ],
-  "explanation_html": `✅ 正解：d「死亡の原因が第X章の病態である場合、死亡統計には第IX章を用いる」<br>
-・a：〇（Ⅲ715）<br>
-・b：〇（Ⅲ716）<br>
-・c：〇（Ⅲ717）<br>
-・d：× 死亡統計には第ⅩⅨ章を用いる → 死亡統計には第ⅩⅩ章を用いる（Ⅲ730）<br>
-・e：〇（Ⅲ743）`
-},
- {
-  "id": 49,
-  "title": "問49. 「もやもや病」のコードと一致しているものを1つ選びなさい。",
-  "options": [
-    { "label": "a", "text": "F", "correct": false },
-    { "label": "b", "text": "G", "correct": false },
-    { "label": "c", "text": "H", "correct": false },
-    { "label": "d", "text": "I", "correct": true },
-    { "label": "e", "text": "R", "correct": false }
-  ],
-  "explanation_html": `✅ 正解：d「I」<br>
-「もやもや病」は第Ⅸ章のI60〜I69「脳血管疾患」（Ⅲ695）`
-},
- {
-  "id": 50,
-  "title": "問50. 「肥満症（過剰カロリーによる）」のコードと一致しているものを1つ選びなさい。",
-  "options": [
-    { "label": "a", "text": "D", "correct": false },
-    { "label": "b", "text": "E", "correct": true },
-    { "label": "c", "text": "F", "correct": false },
-    { "label": "d", "text": "K", "correct": false },
-    { "label": "e", "text": "R", "correct": false }
-  ],
-  "explanation_html": `✅ 正解：b「E」<br>
-「肥満症（過剰カロリーによる）」は第Ⅳ章のE65〜E68「肥満（症）及びその他の過栄養＜過剰摂食＞」（Ⅲ683）`
-},
- {
-  "id": 51,
-  "title": "問51. 「アレルギー性紫斑病」のコードと一致しているものを1つ選びなさい。",
-  "options": [
-    { "label": "a", "text": "D", "correct": true },
-    { "label": "b", "text": "E", "correct": false },
-    { "label": "c", "text": "L", "correct": false },
-    { "label": "d", "text": "M", "correct": false },
-    { "label": "e", "text": "N", "correct": false }
-  ],
-  "explanation_html": `✅ 正解：a「D」<br>
-「アレルギー性紫斑病」は第Ⅲ章のD65〜D69「凝固障害、紫斑病及びその他の出血性疾患」（Ⅲ680）`
-},
- {
+{
   "id": 52,
-  "title": "問52. 「分娩損傷による上腕神経叢麻痺」のコードと一致しているものを1つ選びなさい。",
+  "title": "【2025年 第1回模擬試験】<br>問52. 人口動態統計について、まちがっているものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "G", "correct": false },
-    { "label": "b", "text": "M", "correct": false },
-    { "label": "c", "text": "O", "correct": false },
-    { "label": "d", "text": "P", "correct": true },
-    { "label": "e", "text": "S", "correct": false }
+    { "label": "a", "text": "人口動態統計はある一時点の状況をとらえる", "correct": true },
+    { "label": "b", "text": "人口動態事象に別居は含まれる", "correct": false },
+    { "label": "c", "text": "人口動態統計ではオートコーディングシステムが使用されている", "correct": false },
+    { "label": "d", "text": "人口動態統計は世界各国と比較可能である", "correct": false },
+    { "label": "e", "text": "人口動態統計の調査票は、市区町村長が作成する", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「P」<br>
-「分娩損傷による上腕神経叢麻痺」は第ⅩⅥ章のP10〜P15「出産外傷」（Ⅲ716）`
+  "explanation_html": `
+✅ 正解：a「人口動態統計はある一時点の状況をとらえる」<br>
+★★ a. 人口動態統計は一定期間における動きをとらえる　Ⅲ583<br>
+★★ b. 人口動態事象に別居は含まれる　Ⅲ584<br>
+★　c. 人口動態統計ではオートコーディングシステムが使用されている　Ⅲ587<br>
+★　d. 人口動態統計は世界各国と比較可能である　Ⅲ584<br>
+★　e. 人口動態統計の調査票は、市区町村長が作成する　Ⅲ585<br>
+________________________________________<br>
+人口動態統計<br>
+★★　静態統計 ＝ ある一時点でとる（例：国勢調査〈5年に1度〉）<br>
+★★　動態統計 ＝ 一定期間における動きをとらえる（例：人口動態統計）<br>
+★★　人口動態事象 ＝ 出生・死亡・死産・婚姻・離婚・別居など。<br>
+★&nbsp; &nbsp;&nbsp;&nbsp  人口動態調査資料（調査票）：<br>
+　・項目：出生、死亡、死産、婚姻、離婚。<br>
+　・作成者：届出を受けた市区町村長。<br>
+　・ルート：市区町村 → 保健所長 → 都道府県知事 → 厚生労働省。<br>
+`
 },
  {
   "id": 53,
-  "title": "問53. 「工事現場で作業中、チェーンソーで受傷。右側腹壁開放創」の正しいコードを1つ選びなさい。",
+  "title": "【2025年 第1回模擬試験】<br>問53. ICD の改正について、まちがっている組み合わせを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "S31.1　V29.6", "correct": false },
-    { "label": "b", "text": "S31.1　V29.62", "correct": false },
-    { "label": "c", "text": "S31.1　W29", "correct": false },
-    { "label": "d", "text": "S31.1　W29.62", "correct": true },
-    { "label": "e", "text": "T31.1　W29.6", "correct": false }
+    { "label": "a", "text": "新たな用語の索引への導入 ー 大改正", "correct": false },
+    { "label": "b", "text": "あるコードについて、3桁分類項目のカテゴリーの変化を伴う索引の改正 ー 大改正", "correct": false },
+    { "label": "c", "text": "コードの移動 ー 小改正", "correct": true },
+    { "label": "d", "text": "誤植の修正 ー 小改正", "correct": false },
+    { "label": "e", "text": "あるコードについて、概念の変化ではなく表現の強化 ー 小改正", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「S31.1　W29.62」<br>
-「右側腹壁開放創」は第ⅩⅨ章のS30〜S39「腹部、下背部、腰椎及び骨盤部の損傷」（Ⅲ728）<br>
-「工事現場で作業中、チェーンソーで受傷」は第ⅩⅩ章のW20〜W49「生物によらない機械的な力への曝露」<br>
-4桁目の発生場所コードに「工業用地域及び建築現場」の6、5桁目の活動コードに「収入を得るための活動中」の2をつける（Ⅲ731–732）`
+  "explanation_html": `
+✅ 正解：c「コードの移動 ー 小改正」<br>
+Ⅲ600<br>
+★★ a. 新たな用語の索引への導入 ― 大改正<br>
+★★ b. あるコードについて、3桁分類項目のカテゴリーの変化を伴う索引の改正 ― 大改正<br>
+★★ c. コードの移動 ― 大改正<br>
+★★ d. 誤植の修正 ― 小改正<br>
+★★ e. あるコードについて、概念の変化ではなく表現の強化 ― 小改正<br>
+________________________________________<br>
+ICDの改正<br>
+★★ ICD-10の改正（大改正と小改正の内容）：<br>
+・大改正（3年毎）：コードの追加・削除・移動、3桁分類項目の変更、用語の追加。<br>
+・小改正（毎年）：同一の3桁分類項目内の修正・明確化、強化。<br>
+`
 },
  {
   "id": 54,
-  "title": "問54. 「胃噴門部癌による貧血」の正しいコードを1つ選びなさい。",
+  "title": "【2025年 第1回模擬試験】<br>問54. 国際統計分類ファミリーについて、正しい組み合わせを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "C16.0†（M8010/6）", "correct": false },
-    { "label": "b", "text": "C16.0†（M8010/3）　D63.0*", "correct": true },
-    { "label": "c", "text": "C16.0†（M8010/6）　E63.0*", "correct": false },
-    { "label": "d", "text": "D16.0†（M8010/3）　D63.0*", "correct": false },
-    { "label": "e", "text": "D63.0†　C16.0*（M8010/6）", "correct": false }
+    { "label": "a", "text": "国際生活機能分類(ICF) ー 派生分類", "correct": false },
+    { "label": "b", "text": "医療行為の分類 (ICHI) ー 関連分類", "correct": false },
+    { "label": "c", "text": "国際疾病分類(ICD) ー 関連分類", "correct": false },
+    { "label": "d", "text": "国際生活機能分類ー児童版(ICF-CY) ー 派生分類", "correct": true },
+    { "label": "e", "text": "国際疾病分類ー腫瘍学 (ICD-O) ー 中心分類", "correct": false }
   ],
-  "explanation_html": `✅ 正解：b「C16.0†（M8010/3）　D63.0*」<br>
-・ICDの指示により剣印（†）星印（＊）をつける（Ⅲ658-660）<br>
-・「胃噴門部癌による貧血」の原因疾患「胃噴門部癌」は第Ⅱ章のC00〜C75「原発と記載された又は推定された、明示された部位の悪性新生物＜腫瘍＞」（Ⅲ674）<br>
-・性状コードは「原発性悪性新生物」の/3をつける（Ⅲ618）<br>
-・病態「癌による貧血」は第Ⅲ章のD60〜D64「無形成性貧血及びその他の貧血」（Ⅲ680）`
+  "explanation_html": `
+✅ 正解：d「国際生活機能分類－児童版（ICF－CY） ー 派生分類」<br>
+Ⅲ606<br>
+★★ a. 国際生活機能分類（ICF） ― 中心分類<br>
+★★ b. 医療行為の分類（ICHI） ― 中心分類<br>
+★★ c. 国際疾病分類（ICD） ― 中心分類<br>
+★　d. 国際生活機能分類－児童版（ICF－CY） ― 派生分類<br>
+★　e. 国際疾病分類－腫瘍学（ICD－O） ― 派生分類<br>
+________________________________________<br>
+国際統計分類ファミリー<br>
+★★ ①中心分類 ＝ 主要な軸となる分類：<br>
+・ICD（国際疾病分類）<br>
+・ICF（国際生活機能分類）<br>
+・ICHI（医療行為の分類）<br>
+<br>
+★ 派生分類 ＝ 中心分類の構成や項目を、細かく分類・追加して並べ直したもの：<br>
+・ICD－O－3（国際疾病分類－腫瘍学 第3版）<br>
+・ICD－10 精神及び行動の障害に関する分類<br>
+・ICD－DA（国際疾病分類－歯科学及び口腔科学への適用 第3版）<br>
+・ICD－10－NA（国際疾病分類－神経疾患への適用 第8版）<br>
+・ICF－CY（国際生活機能分類－児童版）<br>
+<br>
+★ 関連分類 ＝ 中心分類を一部参照、一部関連している分類：<br>
+・ICPC－2（プライマリケアに対する国際分類）<br>
+・ICECI（外因に対する国際分類）<br>
+・ATC／DDD（化学物質分類システム／1日使用薬剤容量）<br>
+・ISO9999（障害者のためのテクニカルエイド分類）<br>
+・ICNP（看護の分類）<br>
+`
 },
  {
   "id": 55,
-  "title": "問55. 「好中球減少症（抗腫瘍薬による）」の正しいコードを1つ選びなさい。",
+  "title": "【2025年 第1回模擬試験】<br>問55. ICF について、まちがっているものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "A70　Y43.3", "correct": false },
-    { "label": "b", "text": "C76.7　D70", "correct": false },
-    { "label": "c", "text": "D70　Y43.3", "correct": true },
-    { "label": "d", "text": "T70　Y43.3", "correct": false },
-    { "label": "e", "text": "Y43.3", "correct": false }
+    { "label": "a", "text": "環境因子は背景因子の構成要素である", "correct": false },
+    { "label": "b", "text": "個人因子は分類されていない", "correct": false },
+    { "label": "c", "text": "心身機能とは、器官·肢体とその構成部分などの、身体の解剖学的部分のことである", "correct": true },
+    { "label": "d", "text": "活動とは、課題や行為の個人による遂行のことである", "correct": false },
+    { "label": "e", "text": "心身機能·身体構造は第1部の構成要素である", "correct": false }
   ],
-  "explanation_html": `✅ 正解：c「D70　Y43.3」<br>
-・「好中球減少症」は第Ⅲ章のD70〜D77「血液及び造血器のその他の疾患」（Ⅲ680）<br>
-・また、原因が薬物又はその他の外因によって生じた場合は、任意に追加コードとして第XX章を用いることができる（Ⅲ680）。<br>
-・ことさらに、追加外因コードをつける。（「抗腫瘍薬による」 はY40–Y84「内科的及び外科的ケアの合併症」のうちY40–Y59「治療上の使用により有害作用を引き起こした薬物、薬剤及び生物学的製剤」（Ⅲ733））。（Ⅲ733）`
+  "explanation_html": `
+✅ 正解：c「心身機能とは、器官・肢体とその構成部分などの、身体の解剖学的部分のことである」<br>
+★&nbsp; &nbsp;&nbsp;&nbsp　a. 環境因子は背景因子の構成要素である　Ⅲ610<br>
+★&nbsp; &nbsp;&nbsp;&nbsp　b. 個人因子は分類されていない　Ⅲ610<br>
+★★　c. 身体構造とは、器官・肢体などの構成部分などの、身体の解剖学的部分のことである　Ⅲ609<br>
+★★　d. 活動とは、課題や行為の個人による遂行のことである　Ⅲ609<br>
+★★　e. 心身機能・身体構造は第1部の構成要素である　Ⅲ609<br>
+________________________________________<br>
+ICF（国際生活機能分類）<br>
+★★　ICFは、扱う情報を「第1部：生活機能と障害」「第2部：背景因子」の2部で構成する。<br>
+<br>
+★★ 第1部（生活機能と障害）<br>
+・心身機能：身体系の生理的機能（心理的機能を含む）<br>
+・身体構造：身体の解剖学的部分（器官・肢体とその構成部分など）<br>
+・活動：課題や行為の個人による遂行<br>
+・参加：生活・人生場面への関わり<br>
+<br>
+★★ 第2部（背景因子）<br>
+・環境因子：「物的・社会的・人々の態度による環境」を構成する因子<br>
+・個人因子：人生や生活の特別な背景（ICFでは分類されない）<br>
+`
 },
  {
   "id": 56,
-  "title": "問56. 第XVIII章に分類されないものを1つ選びなさい。",
+  "title": "【2025年 第1回模擬試験】<br>問56. 原死因選択ルールについて、まちがっているものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "咳嗽", "correct": false },
-    { "label": "b", "text": "鼻出血", "correct": false },
-    { "label": "c", "text": "ショック", "correct": false },
-    { "label": "d", "text": "新生児発熱", "correct": true },
-    { "label": "e", "text": "高血糖症", "correct": false }
+    { "label": "a", "text": "選択ルールとは、記載方法に問題がある場合、原死因の選択をやりなおすときの方法である", "correct": false },
+    { "label": "b", "text": "修正ルールとは、選択された原死因よりも他の診断の方が死因統計の作成に相応しい場合に用いる", "correct": false },
+    { "label": "c", "text": "選択ルールはルールA～ルールDである", "correct": true },
+    { "label": "d", "text": "修正ルールは4種類である", "correct": false },
+    { "label": "e", "text": "死亡診断書に複数の病態が記載されている場合、まずは一般原則を使用する", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「新生児発熱」<br>
-・周産期に発症した疾病は一部を除き全て第ⅩⅥ章に分類される（Ⅲ715）<br>
-・第ⅩⅧ章は「症状」「徴候」「検査の異常（病因不明）」および「診断名不確定」など（Ⅲ723）`
+  "explanation_html": `
+✅ 正解：c「選択ルールはルールA～ルールDである」<br>
+a. 選択ルールとは、記載方法に問題がある場合、原死因の選択をやりなおすときの方法である　Ⅲ626<br>
+b. 修正ルールとは、選択された原死因よりも他の診断の方が死因統計の作成に相応しい場合に用いる　Ⅲ626<br>
+c. 選択ルールはルール1～ルール3である　Ⅲ626<br>
+d. 修正ルールは4種類である　Ⅲ626<br>
+e. 死亡診断書に複数の病態が記載されている場合、まずは一般原則を使用する　Ⅲ627<br>
+________________________________________<br>
+原死因選択ルール<br>
+★★ WHO（またはICD）ルールは以下の順に使用する。<br>
+① 一般原則<br>
+② 選択ルール（ルール1～3）<br>
+③ 修正ルール（ルールA～D）<br>
+<br>
+★ 一般原則：原死因選択の基本的なルール。<br>
+★ 選択ルール：原死因の選択をやりなおす方法（記載方法に問題がある場合）。<br>
+★ 修正ルール：一度選択した原死因の選択をやりなおす方法（他の診断の方が死因統計にふさわしい場合）。<br>
+`
 },
  {
   "id": 57,
-  "title": "問57. 第XI章に分類されないものを1つ選びなさい。",
+  "title": "【2025年 第2回模擬試験】<br>問57. 人口統計について、まちがっているものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "急性A型肝炎（肝性昏睡を伴う）", "correct": true },
-    { "label": "b", "text": "口内炎", "correct": false },
-    { "label": "c", "text": "アカラシア", "correct": false },
-    { "label": "d", "text": "大腸ポリープ", "correct": false },
-    { "label": "e", "text": "非アルコール性脂肪肝", "correct": false }
+    { "label": "a", "text": "人口静態統計の代表は国勢調査である", "correct": false },
+    { "label": "b", "text": "人口動態統計は5年に1度調査が行われる", "correct": true },
+    { "label": "c", "text": "人口動態統計は一定期間における動きをとる", "correct": false },
+    { "label": "d", "text": "人口動態事象には婚姻の無効が含まれる", "correct": false },
+    { "label": "e", "text": "人口動態事象には婚約破棄は含まれない", "correct": false }
   ],
-  "explanation_html": `✅ 正解：a「急性A型肝炎（肝性昏睡を伴う）」<br>
-・「急性A型肝炎」は第Ⅰ章のB15〜B19「ウイルス性肝炎」に分類される（Ⅲ669）<br>
-・一方、ウイルス性以外の肝炎（アルコール性、薬物性など）は第Ⅺ章のK70〜K77「肝疾患」に含まれる（Ⅲ700）`
+  "explanation_html": `
+  ✅ 正解： b「人口動態統計は5年に1度調査が行われる」<br>
+人口統計<br>
+★★　a. 人口静態統計の代表は国勢調査である Ⅲ583<br>
+★★　b. 人口静態統計(国勢調査)は5年に1度調査が行われる Ⅲ583<br>
+★★　c. 人口動態統計は一定期間における動きをとる Ⅲ583<br>
+★★　d. 人口動態事象には婚姻の無効が含まれる Ⅲ584<br>
+★★　e. 人口動態事象には婚約破棄は含まれない Ⅲ584<br>
+________________________________________<br>
+★★　静態統計 = ある一時点でとる:国勢調査(5年に1度)<br>
+★★　動態統計 = 一定期間における動きをとる:人口動態統計<br>
+★★　人口動態事象 = 出生·死亡·死産、婚姻·離婚、別居等。<br>
+`
 },
  {
   "id": 58,
-  "title": "問58. 原死因を1つ選びなさい。<br>Ⅰ（ア）肝硬変<br> （イ）気管支炎及び気管支拡張症<br> （ウ）アテローム粥状硬化症",
+  "title": "【2025年 第2回模擬試験】<br>問58. ICD-10 の改善について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "肝硬変", "correct": true },
-    { "label": "b", "text": "気管支炎", "correct": false },
-    { "label": "c", "text": "気管支拡張症", "correct": false },
-    { "label": "d", "text": "アテローム粥状硬化症", "correct": false },
-    { "label": "e", "text": "気管支炎及び気管支拡張症", "correct": false }
+    { "label": "a", "text": "ICD-10 が ICD-11 に変わるのは、大改正である", "correct": false },
+    { "label": "b", "text": "大改正は毎年施行される", "correct": false },
+    { "label": "c", "text": "改正は国連本部において毎年実施される", "correct": false },
+    { "label": "d", "text": "わが国において 2013 年版の ICD-10 は、2016 年から公的に用いられている", "correct": true },
+    { "label": "e", "text": "ICD-11 は、現在原案の作成段階である", "correct": false }
   ],
-  "explanation_html": `✅ 正解：a「肝硬変」<br>
-・ルール2：最初に記載された病態に帰着する上下の因果関係がないため、最初に記載された「肝硬変」を原死因として選ぶ（Ⅲ625-634, Ⅲ740-747）`
+  "explanation_html": 
+  `✅ 正解： d「わが国において 2013 年版の ICD-10 は、2016 年から公的に用いられている」<br>
+ICD-10 の改善<br>
+★★　a.ICD-10 が ICD-11 に変わるのは、改訂である Ⅲ598<br>
+★★　b.大改正は3年ごとに施行される Ⅲ598<br>
+★　　c. 改正は WHO-FIC ネットワーク会議において毎年実施される Ⅲ598<br>
+　　　d. わが国において 2013 年版の ICD-10 は、2016 年から公的に用いられている Ⅲ599<br>
+　　　e. ICD-11 は、2019 年に採択された Ⅲ599<br>
+________________________________________<br>
+★★　大改正は3年ごと、小改正は毎年行われる。<br>
+★★　WHO の改正は、翌年は日本では適用されない。
+`
 },
  {
   "id": 59,
-  "title": "問59. 原死因を1つ選びなさい。<br>Ⅰ（ア）脳内出血<br> （イ）高血圧<br> （ウ）アルドステロン症<br> （エ）副腎腺腫<br><br>Ⅱ　前立腺癌",
+  "title": "【2025年 第2回模擬試験】<br>問59. ICD-10 の構造について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "脳内出血", "correct": false },
-    { "label": "b", "text": "高血圧", "correct": false },
-    { "label": "c", "text": "アルドステロン症", "correct": false },
-    { "label": "d", "text": "副腎腺腫", "correct": true },
-    { "label": "e", "text": "前立腺癌", "correct": false }
+    { "label": "a", "text": "全部で約2,000 項目の分類ができるように構成されている", "correct": false },
+    { "label": "b", "text": "単一の分類軸により、全体として一貫性のある分類としている", "correct": false },
+    { "label": "c", "text": "第1巻は内容例示表、第2巻は索引表である", "correct": false },
+    { "label": "d", "text": "William Farr の分類を基本としている", "correct": true },
+    { "label": "e", "text": "日本独自の細分類として「0、1」を追加し情報を補っている", "correct": false }
   ],
-  "explanation_html": `✅ 正解：d「副腎腺腫」<br>
-・一般原則により、（エ）が（ア）〜（ウ）のすべての病態を引き起こす可能性があるため原死因として選択する（Ⅲ625-634, Ⅲ740-747）`
+  "explanation_html": `
+  ✅ 正解：. d「William Farr の分類を基本としている」<br>
+ICD-10 の構造<br>
+　　a. 全部で約 14,000 項目の分類ができるように構成されている Ⅲ600<br>
+★　b. 分類軸は多軸的であり、全体として一貫性があるとはいえない Ⅲ601<br>
+★　c. 第1巻は内容例示表、第3巻は索引表である Ⅲ602<br>
+★　d. William Farr の分類を基本としている Ⅲ603<br>
+　　e. 日本独自の細分類として「a,b,c,d」を追加し情報を補っている Ⅲ604
+` 
 },
  {
   "id": 60,
-  "title": "問60. 次の要約症例を読んで、選択肢より正しい組み合わせを1つ選びなさい。<br>既往歴：○才；痛風。○才；S状結腸癌でS状結腸切除術施行。外来にてフォローアップ。<br>現病歴：今回、頭痛、吐き気を訴えたため、頭部CT施行したところ、前頭葉に低吸収域を認めたため、脳転移の疑いで入院。脳転移と診断し、放射線治療を開始した。入院中、軽度の褥瘡を認め、軟膏を塗布した。○月○日退院。<br><br>選択肢の表示＝主傷病名 / 副傷病名1 / 副傷病名2 / 副傷病名3	/ 主医療行為",
+  "title": "【2025年 第2回模擬試験】<br>問60. 国際統計分類―腫瘍学について、正しいものを1つ選びなさい",
   "options": [
-    { "label": "a", "text": "S状結腸癌　/ 脳転移　/ 痛風　/ 褥瘡　/ 放射線照射", "correct": false },
-    { "label": "b", "text": "S状結腸癌　/ 脳転移　/ 褥瘡　/ S状結腸の欠損　/ 頭部CT", "correct": false },
-    { "label": "c", "text": "脳転移　/ 褥瘡　/ S状結腸癌の既往　/ S状結腸の欠損　/ 放射線照射", "correct": true },
-    { "label": "d", "text": "S状結腸癌の既往　/ 脳転移　/ 褥瘡　/ S状結腸の欠損　/ 軟膏塗布", "correct": false },
-    { "label": "e", "text": "脳転移　/ S状結腸癌の既往　/ 痛風　/ 褥瘡　/ 軟膏塗布", "correct": false }
+    { "label": "a", "text": "単一の体系により新生物を表現する", "correct": false },
+    { "label": "b", "text": "局在コードは新生物の組織型を表す", "correct": false },
+    { "label": "c", "text": "形態コードは新生物を顕微鏡で見たときどのような性質の腫瘍であるかを表す", "correct": true },
+    { "label": "d", "text": "局在コードと ICD-10 における悪性新生物のコードは同じ意味を表す", "correct": false },
+    { "label": "e", "text": "局在コードは C00-D48 で表す", "correct": false }
   ],
-  "explanation_html": `✅ 正解：c「脳転移　褥瘡　S状結腸癌の既往　S状結腸の欠損　放射線照射」<br>
-・主傷病名は、最も医療資源として大きい「放射線照射」に対応した「脳転移」を選択（Ⅲ738-739）<br>
-・S状結腸癌については「再発」の記載が無いため治療済みと考え「既往歴」とする（第XXⅠ章）<br>
-・切除術施行の記載から「欠損」を選択（第XXⅠ章）`
+  "explanation_html": `
+ ✅ 正解：c「形態コードは新生物を顕微鏡で見たときどのような性質の腫瘍であるかを表す」<br>
+国際統計分類 – 腫瘍学<br>
+★★　a.2つの体系により新生物を表現する Ⅲ616<br>
+★★　b. 局在コードは新生物の部位を表す Ⅲ616<br>
+★　　c. 形態コードは新生物を顕微鏡で見たときどのような性質の腫瘍であるかを表す Ⅲ616<br>
+★　　d. 局在コードと ICD-10 における悪性新生物のコードは同じ意味を表すわけではない Ⅲ616<br>
+　　　e. 局在コードは C00-C80 で表す Ⅲ617<br>
+________________________________________<br>
+★　　ICD-O (国際統計分類 – 腫瘍学)は、国際統計分類ファミリーの派生分類。<br>
+★　　良性、性状不詳·不明、悪性をコードする。悪性については原発性か続発性か表記できる。<br>
+★★　局在コード、形態コードの 2体系をコードする。<br>
+★　　局在コード= 体のどこに腫瘍があるか。C00-80。ICD-10 の第2章に似ているが、同じではない。<br>
+★　　形態コード= 顕微鏡で見たとき、どのような性質の腫瘍か。<br>
+　　　　　・「M-」に続く 4桁数字= 組織型。<br>
+　　　　　・スラッシュ「/」に続く5桁目 = 性状(良性か悪性か、原発か転移か、等を表す)<br>
+　　　　　・性状が悪性(/2、/3、/6) の場合、その後さらに1文字(分化度、細胞の由来を表す)<br>
+` 
+},
+ {
+  "id": 61,
+  "title": "【2025年 第2回模擬試験】<br>問61. 主要病態の再選択ルールについて、正しいものを1つ選びなさい",
+  "options": [
+    { "label": "a", "text": "まず第一に、最も医療資源が使われた病態を選択する", "correct": false },
+    { "label": "b", "text": "エピソードの原因となった病態のなかで、最後に診断されたものを主要病態とする", "correct": true },
+    { "label": "c", "text": "主要症状、異常な所見、問題などを主要病態として選択することはない", "correct": false },
+    { "label": "d", "text": "再選択ルールは、4つである", "correct": false },
+    { "label": "e", "text": "主要病態として急性と慢性の両方が記載されている場合は、より多くの医療資源が投入された病態を優先する", "correct": false }
+  ],
+  "explanation_html": `
+  ✅ 正解： b「エピソードの原因となった病態のなかで、最後に診断されたものを主要病態とする」<br>
+主要病態の再選択ルール<br>
+★　a. まず、エピソードのなかで最後に診断されたものを主要病態とし、そのような病態が複数ある場合に最も医療資源が使われた病態を選択する Ⅲ635<br>
+★　b. エピソードの原因となった病態のなかで、最後に診断されたものを主要病態とする Ⅲ635<br>
+★　c. 主要症状、異常な所見、問題などを主要病態として選択する場合もある Ⅲ635<br>
+★　d. 再選択ルールは、5つである Ⅲ636-637<br>
+★　e. 主要病態として急性と慢性の両者が記載された場合、急性病態を優先する Ⅲ638<br>
+________________________________________<br>
+★	基本原則:<br>
+①	ある期間の医療において、「最後に診断された病態」。<br>
+②	①の病態が複数あった場合は、「最も医療資源が使われた(= 主として治療、検査された)病態」。<br>
+③診断がなされなかった場合は、「主要症状、異常な所見、問題」。<br>
+<br>
+★　基本原則により正しく選択されず、誤りを直接、医師などに照会できない場合は、主要病態の再選択ルール「MB ルール」を用いる。
+` 
 }
+ 
 ];
 
 function shuffle(array) {
@@ -1178,6 +1395,7 @@ render();
 </script>
 </body>
 </html>
+
 
 
 
